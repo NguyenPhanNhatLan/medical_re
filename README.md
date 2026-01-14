@@ -12,5 +12,5 @@ datasets/
 ## 2. File `config.py/` (được thêm)
 t cố định các hyperparameter để so sánh công bằng
 
-### 3. File `train.json`, 'dev.json`, `test.json` trong foler `data`
+### 3. File `train.json`, `dev.json`, `test.json` trong foler `data`
 lấy luôn đi train nha để đảm bảo dữ liệu mình dống nhau hết cho công bằng thui
