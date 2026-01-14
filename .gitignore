@@ -1,19 +1,25 @@
-# Source - https://stackoverflow.com/a/14058267
-# Posted by seanrose, modified by community. See post 'Timeline' for change history
-# Retrieved 2026-01-14, License - CC BY-SA 3.0
-
-# Byte-compiled / optimized / DLL files
+# ===============================
+# Python
+# ===============================
 __pycache__/
 *.py[cod]
-
-# C extensions
 *.so
 
-# Distribution / packaging
+# ===============================
+# Virtual environments
+# ===============================
+venv/
+.venv/
+env/
+ENV/
+
+# ===============================
+# Packaging / build
+# ===============================
 bin/
 build/
-develop-eggs/
 dist/
+develop-eggs/
 eggs/
 lib/
 lib64/
@@ -24,31 +30,53 @@ var/
 .installed.cfg
 *.egg
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
+# ===============================
+# Logs & temp
+# ===============================
+*.log
+*.tmp
+.cache/
 .tox/
 .coverage
-.cache
-nosetests.xml
 coverage.xml
 
-# Translations
-*.mo
+# ===============================
+# HuggingFace / Transformers
+# ===============================
+.cache/huggingface/
+hf_cache/
+tokenizers/
 
-# Mr Developer
-.mr.developer.cfg
-.project
+# ===============================
+# Deep Learning artifacts
+# ===============================
+*.pt
+*.bin
+*.ckpt
+*.onnx
+
+checkpoints/
+runs/
+outputs/
+predictions/
+
+# ===============================
+# Data
+# ===============================
+data/processed/
+data/cache/
+
+# ===============================
+# IDE
+# ===============================
+.vscode/
+.idea/
 .pydevproject
+.project
+.mr.developer.cfg
 
-# Rope
-.ropeproject
-
-# Django stuff:
-*.log
-*.pot
-
-# Sphinx documentation
-docs/_build/
+# ===============================
+# OS
+# ===============================
+.DS_Store
+Thumbs.db
