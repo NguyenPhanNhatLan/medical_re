@@ -1,0 +1,12 @@
+# config.py
+MODEL_MAX_LEN = 256
+BATCH_SIZE = 16
+LR = 2e-5
+EPOCHS = 20
+WEIGHT_DECAY = 0.01
+WARMUP_RATIO = 0.1
+GRAD_CLIP_NORM = 1.0
+DROPOUT = 0.1
+SEEDS = [42, 43, 44]  
+
+SELECT_METRIC = "micro_f1"  # "macro_f1"
