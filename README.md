@@ -7,7 +7,6 @@ datasets/
 ├── base_dataset.py # insert entity + tokenize
 ├── rbert_dataset.py # build dataset cho mô hình R-BERT
 └── bert_es_dataset.py # build dataset cho mô hình R-BERT
-```text
 
 ## 2. File `config.py/` (được thêm)
 t cố định các hyperparameter để so sánh công bằng
