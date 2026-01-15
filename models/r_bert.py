@@ -2,9 +2,10 @@ import torch
 import torch.nn as nn
 
 class RBERT(nn.Module):
-    def __init__(self, encoder, hidden_size, num_labels):
+    def __init__(self, encoder, hidden_size, num_labels, dropout_rate):
         super().__init__()
         self.encoder = encoder
+        self.dropout = nn.Dropout(dropout_rate)
         self.classifier = nn.Linear(hidden_size * 3, num_labels)
 
     def forward(self, input_ids, attention_mask, e1_mask, e2_mask):
