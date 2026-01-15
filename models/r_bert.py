@@ -13,8 +13,8 @@ class RBERT(nn.Module):
             attention_mask=attention_mask
         )
 
-        cls_vec = enc_out["cls"]                   
-        hidden = enc_out["hidden_states"]           
+        cls_vec = enc_out.cls
+        hidden  = enc_out.hidden_states
 
         e1_vec = self.encoder.masked_mean_pool(hidden, e1_mask)
         e2_vec = self.encoder.masked_mean_pool(hidden, e2_mask)
