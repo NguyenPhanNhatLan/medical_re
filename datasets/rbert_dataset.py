@@ -10,6 +10,9 @@ class RBERTDataset(BaseREDataset):
     Dataset cho R-BERT
     - tạo e1_mask, e2_mask để mean pooling
     """
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.with_end_tags = True  # R-BERT style
 
     def _find_first(self, ids: torch.Tensor, token_id: int) -> int:
         pos = (ids == token_id).nonzero(as_tuple=False)
