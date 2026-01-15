@@ -43,20 +43,33 @@ class BaseREDataset(Dataset):
 
     # -------- marker utils --------
     @staticmethod
-    def insert_entity_markers(text: str, e1: Dict, e2: Dict) -> str:
+    def insert_entity_markers(text: str, e1: Dict, e2: Dict, with_end_tags: bool = True) -> str:
         """
-        Insert <e1></e1>, <e2></e2> using char offsets
+        - with_end_tags=True  -> R-BERT style: <e1>...</e1>, <e2>...</e2>
+        - with_end_tags=False -> BERT-ES style: chỉ <e1>, <e2>
         """
-        spans = [
-            (e1["start"], e1["end"], "<e1>", "</e1>"),
-            (e2["start"], e2["end"], "<e2>", "</e2>"),
-        ]
-        spans.sort(key=lambda x: x[0], reverse=True)
+        if with_end_tags:
+            spans = [
+                (e1["start"], e1["end"], "<e1>", "</e1>"),
+                (e2["start"], e2["end"], "<e2>", "</e2>"),
+            ]
+            spans.sort(key=lambda x: x[0], reverse=True)
 
-        out = text
-        for s, e, ltag, rtag in spans:
-            out = out[:s] + ltag + out[s:e] + rtag + out[e:]
-        return out
+            out = text
+            for s, e, ltag, rtag in spans:
+                out = out[:s] + ltag + out[s:e] + rtag + out[e:]
+            return out
+        else:
+            spans = [
+                (e1["start"], "<e1>"),
+                (e2["start"], "<e2>"),
+            ]
+            spans.sort(key=lambda x: x[0], reverse=True)
+
+            out = text
+            for s, tag in spans:
+                out = out[:s] + tag + out[s:]
+            return out
 
     def tokenize(self, text: str) -> Dict[str, torch.Tensor]:
         enc = self.tokenizer(
@@ -75,7 +88,7 @@ class BaseREDataset(Dataset):
         item = self.data[idx]
 
         marked_text = self.insert_entity_markers(
-            item["text"], item["entity_1"], item["entity_2"]
+            item["text"], item["entity_1"], item["entity_2"], with_end_tags=self.with_end_tags
         )
         enc = self.tokenize(marked_text)
 

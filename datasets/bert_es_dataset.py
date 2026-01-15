@@ -10,6 +10,9 @@ class BERTESDataset(BaseREDataset):
     Dataset cho BERT-ES
     - lấy vị trí <e1> và <e2>
     """
+    def init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.with_end_tags = False  # BERT-ES style
 
     def __getitem__(self, idx):
         out = self.get_common_fields(idx)
