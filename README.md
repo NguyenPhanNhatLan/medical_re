@@ -1,16 +1,1 @@
-t giải thích mấy cái t mới thêm nha
-
-## 1. Thư mục `datasets/` (được thêm)
-
-```text
-datasets/
-├── base_dataset.py # insert entity + tokenize
-├── rbert_dataset.py # build dataset cho mô hình R-BERT (đầu vào encoder)
-└── bert_es_dataset.py # build dataset cho mô hình R-BERT (đầu vào encoder)
-```
-
-## 2. File `config.py/` (được thêm)
-t cố định các hyperparameter để so sánh công bằng
-
-### 3. File `train.json`, `dev.json`, `test.json` trong foler `data`
-lấy luôn đi train nha để đảm bảo dữ liệu mình dống nhau hết cho công bằng thui
+[![Train vihealth_rbert](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1M2US59AOXU_CEN1B9-9ZKMvXQuUo7uPe?usp=sharing)
