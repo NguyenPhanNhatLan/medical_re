@@ -14,7 +14,7 @@ GRAD_CLIP_NORM = 1.0
 TUNE_SEED = 42 # find best hyperparams with this seed then run on other seeds
 SEEDS = [42, 43, 44]  
 
-SELECT_METRIC = "micro_f1"  # "macro_f1"
+SELECT_METRIC = "macro_f1"  
 REPORT_METRICS = ["macro_f1", "micro_f1"]
 
 LR_GRID = [1e-5, 2e-5, 3e-5, 5e-5]
