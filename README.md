@@ -5,8 +5,8 @@ t giải thích mấy cái t mới thêm nha
 ```text
 datasets/
 ├── base_dataset.py # insert entity + tokenize
-├── rbert_dataset.py # build dataset cho mô hình R-BERT
-└── bert_es_dataset.py # build dataset cho mô hình R-BERT
+├── rbert_dataset.py # build dataset cho mô hình R-BERT (đầu vào encoder)
+└── bert_es_dataset.py # build dataset cho mô hình R-BERT (đầu vào encoder)
 ```
 
 ## 2. File `config.py/` (được thêm)
