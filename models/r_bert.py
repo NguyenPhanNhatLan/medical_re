@@ -7,36 +7,17 @@ class RBERT(nn.Module):
         self.encoder = encoder
         self.classifier = nn.Linear(hidden_size * 3, num_labels)
 
-    def forward(self, input_ids, attention_mask, e1_pos, e2_pos):
-        # 1. Encode
+    def forward(self, input_ids, attention_mask, e1_mask, e2_mask):
         enc_out = self.encoder(
             input_ids=input_ids,
             attention_mask=attention_mask
         )
 
-        hidden = enc_out.hidden_states   # [B, L, H]
-        cls_vec = enc_out.cls            # [B, H]
+        cls_vec = enc_out["cls"]                   
+        hidden = enc_out["hidden_states"]           
 
-        # 2. R-BERT pooling
-        e1_vecs, e2_vecs = [], []
-        B = input_ids.size(0)
+        e1_vec = self.encoder.masked_mean_pool(hidden, e1_mask)
+        e2_vec = self.encoder.masked_mean_pool(hidden, e2_mask)
 
-        for i in range(B):
-            s1, e1 = e1_pos[i]
-            s2, e2 = e2_pos[i]
-
-            # safety check
-            v1 = hidden[i, s1+1:e1].mean(dim=0) if s1 + 1 < e1 else hidden[i, s1]
-            v2 = hidden[i, s2+1:e2].mean(dim=0) if s2 + 1 < e2 else hidden[i, s2]
-
-            e1_vecs.append(v1)
-            e2_vecs.append(v2)
-
-        e1_vecs = torch.stack(e1_vecs)
-        e2_vecs = torch.stack(e2_vecs)
-
-        # 3. Classify
-        x = torch.cat([cls_vec, e1_vecs, e2_vecs], dim=-1)
-        logits = self.classifier(x)
-
-        return logits
+        x = torch.cat([cls_vec, e1_vec, e2_vec], dim=-1)
+        return self.classifier(x)
