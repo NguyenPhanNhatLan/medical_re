@@ -1,16 +1,6 @@
-t giải thích mấy cái t mới thêm nha
+Bởi vì technical issues, cụ thể là hardware của team quá phế nên chúng toi đã train các model trên colab
+- Training Environment: Google Colab
+- GPU: T4 
+- Training Time: ~ 1.5 hour for 10 epochs.
 
-## 1. Thư mục `datasets/` (được thêm)
-
-```text
-datasets/
-├── base_dataset.py # insert entity + tokenize
-├── rbert_dataset.py # build dataset cho mô hình R-BERT (đầu vào encoder)
-└── bert_es_dataset.py # build dataset cho mô hình R-BERT (đầu vào encoder)
-```
-
-## 2. File `config.py/` (được thêm)
-t cố định các hyperparameter để so sánh công bằng
-
-### 3. File `train.json`, `dev.json`, `test.json` trong foler `data`
-lấy luôn đi train nha để đảm bảo dữ liệu mình dống nhau hết cho công bằng thui
+[ViHealth-RBERT](https://colab.research.google.com/drive/1M2US59AOXU_CEN1B9-9ZKMvXQuUo7uPe?usp=sharing)
