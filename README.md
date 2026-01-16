@@ -3,4 +3,4 @@ Bởi vì technical issues, cụ thể là hardware của team quá phế nên c
 - GPU: T4 
 - Training Time: ~ 1.5 hour for 10 epochs.
 
-[ViHealth-RBERT](https://colab.research.google.com/drive/1M2US59AOXU_CEN1B9-9ZKMvXQuUo7uPe?usp=sharing)
+[ViHealth-RBERT](https://colab.research.google.com/drive/1Bf7H1XazznI3XoqD-q8lv-A4nESv5jEm?usp=sharing)
