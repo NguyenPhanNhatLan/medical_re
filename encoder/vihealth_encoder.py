@@ -111,3 +111,7 @@ class ViHealthBERTEncoder(nn.Module):
         e2_pos = e2_mask.int().argmax(dim=1)
 
         return e1_pos, e2_pos
+        
+    def save_pretrained(self, save_directory):
+        self.tokenizer.save_pretrained(save_directory)
+        self.model.save_pretrained(save_directory)
