@@ -1,5 +1,4 @@
 # models/vihealth_encoder.py
-# -*- coding: utf-8 -*-
 
 from dataclasses import dataclass
 from typing import Optional, Dict, Any, Tuple
@@ -12,10 +11,6 @@ SPECIAL_TOKENS = ["<e1>", "</e1>", "<e2>", "</e2>"]
 
 @dataclass
 class EncoderOutput:
-    """
-    hidden_states: [B, L, H]
-    cls:          [B, H]   = hidden_states[:, 0, :]
-    """
     hidden_states: torch.Tensor
     cls: torch.Tensor
 
