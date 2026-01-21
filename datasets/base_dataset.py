@@ -3,7 +3,7 @@ import json
 from typing import List, Dict
 import torch
 from torch.utils.data import Dataset
-
+SPECIAL_TOKENS = ["<e1>", "</e1>", "<e2>", "</e2>"]
 class BaseREDataset(Dataset):
     def __init__(
         self,
