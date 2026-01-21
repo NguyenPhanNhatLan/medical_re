@@ -12,20 +12,11 @@ SPECIAL_TOKENS = ["<e1>", "</e1>", "<e2>", "</e2>"]
 
 @dataclass
 class EncoderOutput:
-    """
-    hidden_states: [B, L, H]
-    cls:          [B, H]
-    """
     hidden_states: torch.Tensor
     cls: torch.Tensor
 
 
 class ViPubmedDeBERTaEncoder(nn.Module):
-    """
-    Encoder wrapper for ViPubmedDeBERTa.
-    Safe for entity-aware RE and dual-encoder fusion.
-    """
-
     def __init__(
         self,
        model_name: str = "manhtt-079/vipubmed-deberta-base",
@@ -38,15 +29,12 @@ class ViPubmedDeBERTaEncoder(nn.Module):
 
         self.model_name = model_name
         self.strict_entity_check = strict_entity_check
-
-        # ---- Load tokenizer & model ----
         self.tokenizer = AutoTokenizer.from_pretrained(
             model_name,
             use_fast=use_fast_tokenizer,
         )
         self.model = AutoModel.from_pretrained(model_name)
 
-        # ---- Add entity markers ----
         if add_entity_markers:
             added = self.tokenizer.add_special_tokens(
                 {"additional_special_tokens": SPECIAL_TOKENS}
@@ -54,41 +42,43 @@ class ViPubmedDeBERTaEncoder(nn.Module):
             if added > 0:
                 self.model.resize_token_embeddings(len(self.tokenizer))
 
-        # ---- Gradient checkpointing (optional) ----
         if gradient_checkpointing:
             self.model.gradient_checkpointing_enable()
 
         self.hidden_size = self.model.config.hidden_size
 
-        # Cache token ids
         self._e1_id = self.tokenizer.convert_tokens_to_ids("<e1>")
         self._e2_id = self.tokenizer.convert_tokens_to_ids("<e2>")
 
-    # ---------- core encode ----------
     def forward(
         self,
-        input_ids: torch.Tensor,        # [B, L]
-        attention_mask: torch.Tensor,   # [B, L]
-        **kwargs: Any
-    ) -> EncoderOutput:
-
+        input_ids: torch.Tensor,      
+        attention_mask: torch.Tensor, 
+        output_attentions: False,
+        output_hidden_states: False,
+        **kwargs) -> EncoderOutput:
         out = self.model(
             input_ids=input_ids,
             attention_mask=attention_mask,
-            token_type_ids=None,  # DeBERTa does not use segment embeddings
+            output_attentions=output_attentions, 
+            output_hidden_states=output_hidden_states,
             **kwargs
         )
+        hidden_states = out.last_hidden_state
+        cls = hidden_states[:, 0, :]   
+        if output_hidden_states:
+            all_hidden_states=out.hidden_states
+        else: None
+        
+        if output_attentions:
+            attentions=out.attentions
+        else: None
+        return EncoderOutput(hidden_states=hidden_states, cls=cls, attentions=attentions, all_hidden_states=all_hidden_states)
 
-        hidden_states = out.last_hidden_state   # [B, L, H]
-        cls = hidden_states[:, 0, :]            # [B, H]
-
-        return EncoderOutput(hidden_states=hidden_states, cls=cls)
-
-    # ---------- helpers ----------
     @staticmethod
     def masked_mean_pool(
-        hidden_states: torch.Tensor,    # [B, L, H]
-        mask: torch.Tensor,            # [B, L]
+        hidden_states: torch.Tensor,
+        mask: torch.Tensor,
         eps: float = 1e-8
     ) -> torch.Tensor:
         m = mask.to(hidden_states.dtype).unsqueeze(-1)
@@ -98,16 +88,17 @@ class ViPubmedDeBERTaEncoder(nn.Module):
 
     @staticmethod
     def gather_positions(
-        hidden_states: torch.Tensor,    # [B, L, H]
-        positions: torch.Tensor         # [B]
+        hidden_states: torch.Tensor,
+        positions: torch.Tensor         
     ) -> torch.Tensor:
         B, L, H = hidden_states.shape
+        positions = positions.clamp(0, L - 1)
         idx = positions.view(B, 1, 1).expand(B, 1, H)
         return hidden_states.gather(dim=1, index=idx).squeeze(1)
 
     def find_entity_start_positions(
         self,
-        input_ids: torch.Tensor,  # [B, L]
+        input_ids: torch.Tensor,
     ) -> Tuple[torch.Tensor, torch.Tensor]:
 
         e1_mask = (input_ids == self._e1_id)
