@@ -16,99 +16,99 @@
         }
     },
     {
-        "text": "biến chứng có thể gặp khi mắc hở van động mạch chủ hở van động mạch chủ nếu không được phát hiện và can thiệp kịp thời , có thể gây ra các biến chứng nguy hiểm : suy tim : lượng máu từ động mạch chủ dội ngược về thất trái làm cho thất trái giãn dần ra ( quá tải thể tích thất trái ) , đến khi cơ tim không còn bù trừ được dẫn đến suy giảm co bóp và suy tim; viêm nội tâm mạc nhiễm khuẩn : dòng máu dội ngược từ động mạch chủ về thất trái gây tổn thương lớp nội mạc tim , tạo điều kiện cho vi khuẩn gây nhiễm trùng hay áp - xe; loạn nhịp tim; tử vong : nếu không được điều trị hoặc phẫu thuật kịp thời , dẫn đến suy tim không hồi phục .",
-        "relation": "No_Relation",
+        "text": "tuổi cao : đa số bệnh nhân được chẩn đoán ung thư hậu môn ở độ tuổi từ 50 - 80. các kích thích thường xuyên ở hậu môn : các kích thích hậu môn gây sưng phồng , đỏ , đau làm tăng nguy cơ phát triển ung thư ống hậu môn rò hậu môn : tình trạng lỗ rò thông thương giữa ống hậu môn và da bên ngoài .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "dòng máu dội ngược từ động mạch chủ về thất trái gây tổn thương lớp nội mạc tim",
-            "start": 389,
-            "end": 468,
+            "text": "sưng phồng",
+            "start": 147,
+            "end": 157,
             "type": "SYMPTOM"
         },
         "obj": {
-            "text": "vi khuẩn gây nhiễm trùng hay áp - xe",
-            "start": 489,
-            "end": 525,
-            "type": "CAUSE"
+            "text": "đau",
+            "start": 165,
+            "end": 168,
+            "type": "SYMPTOM"
         }
     },
     {
-        "text": "một số biện pháp thay thế phổ biến hơn cho bệnh alzheimer và các hình thức khác của chứng mất trí là : vitamin e . một số nghiên cứu đã chỉ ra rằng vitamin e có thể làm chậm sự tiến triển của bệnh alzheimer , trong khi các nghiên cứu khác đã cho thấy không có lợi ích .",
-        "relation": "No_Relation",
+        "text": "bệnh sốt rét là bệnh truyền nhiễm do loài ký sinh trùng plasmodium gây ra , gồm : plasmodium falciparum , plasmodium vivax , plasmodium malariae , plasmodium ovale và plasmodium knowlesi .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "bệnh alzheimer",
-            "start": 193,
-            "end": 207,
-            "type": "DISEASE"
-        },
-        "obj": {
-            "text": "vitamin e",
-            "start": 104,
-            "end": 113,
-            "type": "TREATMENT"
-        }
-    },
-    {
-        "text": "xét nghiệm để xác định chẩn đoán : chụp cộng hưởng từ ( mri ) điện cơ đồ ( emg ) điện cơ có thể chỉ ra các thay đổi gián đoạn từng phần mạn tính của dây thần kinh , với hoạt động bất thường tự phát khi cơ ở trạng thái nghỉ và giảm số lượng các đơn vị hoạt động khi có vận động hữu ý . ở bệnh nhân nghi ngờ teo cơ tủy hoặc xơ cứng cột bên teo cơ không nên chẩn đoán xác định khi không tìm thấy các thay đổi như trên ở ít nhất ba ngọn chi .",
-        "relation": "No_Relation",
-        "subj": {
-            "text": "emg",
-            "start": 75,
-            "end": 78,
-            "type": "DIAGNOSTIC"
-        },
-        "obj": {
-            "text": "điện cơ đồ",
-            "start": 62,
-            "end": 72,
-            "type": "DIAGNOSTIC"
-        }
-    },
-    {
-        "text": "viêm giác mạc truyền nhiễm có thể được gây ra bởi vi khuẩn , virus , nấm và ký sinh trùng .",
-        "relation": "No_Relation",
-        "subj": {
-            "text": "nấm",
-            "start": 69,
-            "end": 72,
-            "type": "CAUSE"
-        },
-        "obj": {
-            "text": "virus",
-            "start": 61,
+            "text": "ký sinh trùng plasmodium",
+            "start": 42,
             "end": 66,
             "type": "CAUSE"
+        },
+        "obj": {
+            "text": "plasmodium falciparum",
+            "start": 82,
+            "end": 103,
+            "type": "CAUSE"
         }
     },
     {
-        "text": "thuốc này có xu hướng có ít tác dụng phụ hơn so với sulfasalazine , nhưng có thể gây buồn nôn , nôn , ợ nóng , tiêu chảy và đau đầu .",
-        "relation": "No_Relation",
+        "text": "bệnh cơ tim giai đoạn đầu của bệnh cơ tim có thể không gây ra các triệu chứng đáng chú ý . khi tình trạng xấu đi , các triệu chứng có thể bao gồm : chóng mặt , choáng váng và ngất xỉu .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "sulfasalazine",
-            "start": 52,
-            "end": 65,
-            "type": "TREATMENT"
-        },
-        "obj": {
-            "text": "buồn nôn",
-            "start": 85,
-            "end": 93,
-            "type": "SYMPTOM"
-        }
-    },
-    {
-        "text": "cả hai viêm kết mạc do virus và vi khuẩn có thể được kết hợp với cảm lạnh hay với các triệu chứng của nhiễm trùng đường hô hấp , chẳng hạn như đau họng .",
-        "relation": "No_Relation",
-        "subj": {
-            "text": " đau họng",
-            "start": 142,
-            "end": 151,
-            "type": "SYMPTOM"
-        },
-        "obj": {
-            "text": "cảm lạnh ",
-            "start": 65,
-            "end": 74,
+            "text": "bệnh cơ tim",
+            "start": 0,
+            "end": 11,
             "type": "DISEASE"
+        },
+        "obj": {
+            "text": "bệnh cơ tim",
+            "start": 30,
+            "end": 41,
+            "type": "DISEASE"
+        }
+    },
+    {
+        "text": "tuy nhiên các triệu chứng này đều không đặc hiệu và có thể gặp trong các bệnh đường tiêu hóa khác : có máu trong phân : ung thư ruột non thường ít khi có máu đỏ tươi trong phân , bệnh nhân đa số đi ngoài phân đen , màu như bã cà phê , mùi thối khẳm tiêu chảy : là tình trạng đi ngoài phân nước &gt; 3 lần/ngày .",
+        "relation": "NO_RELATION",
+        "subj": {
+            "text": "đi ngoài phân nước",
+            "start": 275,
+            "end": 293,
+            "type": "SYMPTOM"
+        },
+        "obj": {
+            "text": "có máu trong phân",
+            "start": 100,
+            "end": 117,
+            "type": "SYMPTOM"
+        }
+    },
+    {
+        "text": "nguyên nhân bệnh thiếu máu cơ tim nguyên nhân thiếu máu cơ tim là do : sự tắc nghẽn động mạch vành do mảng xơ vữa : các mảng xơ vữa gây hẹp lòng mạch vành đến một mức độ nhất định sẽ gây thiếu máu cơ tim , xuất hiện triệu chứng đau ngực trên lâm sàng .",
+        "relation": "NO_RELATION",
+        "subj": {
+            "text": "đau ngực",
+            "start": 228,
+            "end": 236,
+            "type": "SYMPTOM"
+        },
+        "obj": {
+            "text": "tắc nghẽn động mạch vành do mảng xơ vữa",
+            "start": 74,
+            "end": 113,
+            "type": "CAUSE"
+        }
+    },
+    {
+        "text": "theo ước tính , có khoảng 1/4 phụ nữ trải qua thời kỳ tiền mãn kinh với các triệu chứng trầm cảm , lo âu , mất ngủ , và tính khí thay đổi thất thường .",
+        "relation": "NO_RELATION",
+        "subj": {
+            "text": "lo âu",
+            "start": 99,
+            "end": 104,
+            "type": "SYMPTOM"
+        },
+        "obj": {
+            "text": "mất ngủ",
+            "start": 107,
+            "end": 114,
+            "type": "SYMPTOM"
         }
     },
     {
@@ -128,18 +128,18 @@
         }
     },
     {
-        "text": "một số thuốc , bao gồm các thuốc giảm đau , thuốc lợi tiểu và những thuốc sử dụng để điều trị bệnh parkinson , huyết áp cao và trầm cảm .",
+        "text": "các biện pháp điều trị bệnh thiếu máu cơ tim điều trị thiếu máu cơ tim gồm có điều trị nội khoa và tái thông mạch vành bằng can thiệp , phẫu thuật .",
         "relation": "TREATED_WITH",
         "subj": {
-            "text": "bệnh parkinson",
-            "start": 94,
-            "end": 108,
+            "text": "bệnh thiếu máu cơ tim",
+            "start": 23,
+            "end": 44,
             "type": "DISEASE"
         },
         "obj": {
-            "text": "thuốc lợi tiểu",
-            "start": 44,
-            "end": 58,
+            "text": "phẫu thuật",
+            "start": 136,
+            "end": 146,
             "type": "TREATMENT"
         }
     },
@@ -160,115 +160,147 @@
         }
     },
     {
-        "text": "viêm mũi không dị ứng cũng có thể được kích hoạt ở một số người do thuốc an thần , thuốc chống trầm cảm , thuốc ngừa thai uống hoặc thuốc dùng để điều trị rối loạn cương dương .",
-        "relation": "No_Relation",
+        "text": "ngoài ra , phẫu thuật này mang theo những rủi ro liên quan cùng với phẫu thuật đục thủy tinh thể thông thường , chẳng hạn như viêm , nhiễm trùng , bệnh tăng nhãn áp , chảy máu và bong võng mạc .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "viêm mũi không dị ứng",
-            "start": 0,
-            "end": 21,
+            "text": "bong võng mạc",
+            "start": 179,
+            "end": 192,
             "type": "DISEASE"
         },
         "obj": {
-            "text": "thuốc chống trầm cảm",
-            "start": 83,
-            "end": 103,
-            "type": "CAUSE"
+            "text": "viêm",
+            "start": 126,
+            "end": 130,
+            "type": "DISEASE"
         }
     },
     {
-        "text": "các biện pháp được dùng để chẩn đoán tắc ống phóng tinh bao gồm : dựa trên lâm sàng : các bác sĩ sẽ thăm khám cơ quan sinh dục và kết hợp với phần bệnh sử liên quan đến dấu hiệu của viêm nhiễm như : tình trạng xuất tinh máu viêm niệu đạo viêm tiền liệt tuyến tiền sử phẫu thuật bìu xét nghiệm tinh dịch đồ : đây là một trong những xét nghiệm cơ bản và không thể thiếu trong khám vô sinh nam .",
-        "relation": "No_Relation",
+        "text": "đây là nguyên nhân phổ biến nhất của động mạch mạc treo tràng thiếu máu cục bộ cấp tính và có thể được gây ra bởi suy tim xung huyết , tim đập không đều ( loạn nhịp tim ) hay nhồi múa cơ tim .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "viêm tiền liệt tuyến",
-            "start": 238,
-            "end": 258,
+            "text": "tim đập không đều",
+            "start": 135,
+            "end": 152,
             "type": "SYMPTOM"
         },
         "obj": {
-            "text": "tắc ống phóng tinh",
-            "start": 37,
-            "end": 55,
-            "type": "DISEASE"
+            "text": "loạn nhịp tim",
+            "start": 155,
+            "end": 168,
+            "type": "SYMPTOM"
         }
     },
     {
         "text": "trường hợp nặng : nếu các biểu hiện tiêu chảy nhiễm trùng trở nặng như : nôn ói không thể ăn uống , tiêu chảy phân nước nhiều , phân nhầy có máu , sốt cao hoặc rất mệt mỏi , người bệnh nên cân nhắc nhập viện để thực hiện các phương pháp điều trị chuyên môn như : bồi hoàn nước và điện giải qua truyền dịch tĩnh mạch , sử dụng thuốc kháng sinh theo chỉ định của bác sĩ . . nếu thực hiện chăm sóc đúng cách , người bệnh sẽ cảm thấy đỡ hơn trong vòng vài ngày đến một tuần , hoặc có thể mất vài tuần trước khi hệ thống đường ruột , dạ dày hồi phục hoàn toàn .",
-        "relation": "No_Relation",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "bồi hoàn nước",
-            "start": 263,
-            "end": 276,
-            "type": "TREATMENT"
+            "text": "rất mệt mỏi",
+            "start": 160,
+            "end": 171,
+            "type": "SYMPTOM"
         },
         "obj": {
-            "text": "tiêu chảy nhiễm trùng",
-            "start": 36,
-            "end": 57,
+            "text": "điện giải qua truyền dịch tĩnh mạch",
+            "start": 280,
+            "end": 315,
+            "type": "TREATMENT"
+        }
+    },
+    {
+        "text": "phương pháp điều trị block nhĩ thất hiệu quả cấy máy tạo nhịp tim cấy máy tạo nhịp tim ( hoặc máy khử rung tim nếu có rối loạn chức năng tâm thất ) được chỉ định cho block nhĩ thất ( av ) có triệu chứng , không hồi phục .",
+        "relation": "NO_RELATION",
+        "subj": {
+            "text": "block nhĩ thất",
+            "start": 166,
+            "end": 180,
+            "type": "DISEASE"
+        },
+        "obj": {
+            "text": "cấy máy tạo nhịp tim",
+            "start": 66,
+            "end": 86,
+            "type": "TREATMENT"
+        }
+    },
+    {
+        "text": "chụp cắt lớp vi tính ổ bụng đánh giá vị trí , kích thước và mức độ xâm lấn xung quanh của ung thư túi mật siêu âm ổ bụng phương pháp đơn giản , dễ thực hiện giúp đánh giá sơ bộ túi mật và đường mật cũng như cơ quan trong ổ bụng các biện pháp điều trị bệnh ung thư túi mật điều trị ung thư túi mật bao gồm các phương pháp sau : phẫu thuật cắt túi mật : cắt bỏ túi mật đơn giản .",
+        "relation": "NO_RELATION",
+        "subj": {
+            "text": "ung thư túi mật",
+            "start": 281,
+            "end": 296,
+            "type": "DISEASE"
+        },
+        "obj": {
+            "text": "bệnh ung thư túi mật",
+            "start": 251,
+            "end": 271,
             "type": "DISEASE"
         }
     },
     {
-        "text": "các phẫu thuật giảm áp tai túi nội dịch , dùng nhiệt để hủy ống bán khuyên ngoài , dùng muối đặt vào cửa sổ tròn , phẫu thuật cắt hạch sao để điều trị các trường hợp ù tai do ménière .",
-        "relation": "No_Relation",
+        "text": "kháng h2 bao gồm ranitidine ( zantac ) , famotidine ( pepcid ) , cimetidine ( tagamet ) và nizatidine ( axid ) .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "phẫu thuật giảm áp tai túi nội dịch",
-            "start": 4,
-            "end": 39,
+            "text": "ranitidine",
+            "start": 17,
+            "end": 27,
             "type": "TREATMENT"
         },
         "obj": {
-            "text": "phẫu thuật cắt hạch sao",
-            "start": 115,
-            "end": 138,
+            "text": "nizatidine",
+            "start": 91,
+            "end": 101,
             "type": "TREATMENT"
         }
     },
     {
-        "text": "tai biến mạch máu não gây ra một loạt những vấn đề về thần kinh : mất trí nhớ , sa sút trí tuệ và thay đổi hành vi như dễ nóng giận , trầm cảm .",
-        "relation": "No_Relation",
+        "text": "chụp não nhìn vào hình ảnh bộ não có thể giúp bác sĩ xác định đột quỵ , khối u hoặc các vấn đề khác có thể gây ra chứng sa sút trí tuệ mất trí nhớ .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "sa sút trí tuệ",
-            "start": 80,
-            "end": 94,
-            "type": "SYMPTOM"
-        },
-        "obj": {
-            "text": "tai biến mạch máu não",
+            "text": "chụp não nhìn",
             "start": 0,
-            "end": 21,
-            "type": "DISEASE"
-        }
-    },
-    {
-        "text": "rối loạn nhịp tim : như block nhĩ thất ( cần đặt các loại máy tạo nhịp ) , rung nhĩ , nhịp nhanh thất hay rung thất gây đột tử .",
-        "relation": "No_Relation",
-        "subj": {
-            "text": "rung nhĩ",
-            "start": 75,
-            "end": 83,
-            "type": "DISEASE"
+            "end": 14,
+            "type": "DIAGNOSTIC"
         },
         "obj": {
-            "text": "rung thất",
-            "start": 106,
-            "end": 115,
+            "text": "chứng sa sút trí tuệ mất trí nhớ",
+            "start": 117,
+            "end": 150,
             "type": "DISEASE"
         }
     },
     {
-        "text": "các đặc điểm của hội chứng marfan có thể bao gồm : dáng người cao và mảnh mai; tay , chân và ngón tay dài không cân đối; xương ức nhô ra ngoài hoặc lõm vào trong; vòm miệng cao , cong và hàm răng mọc chen chúc; tiếng tim đập; cận thị cực độ; cột sống cong bất thường; bàn chân phẳng .",
-        "relation": "No_Relation",
+        "text": "trường hợp bệnh sốt rét xác định : trường hợp bệnh sốt rét xác định là trường hợp có ký sinh trùng sốt rét trong máu được xác định bằng xét nghiệm lam máu nhuộm giemsa hoặc xét nghiệm chẩn đoán nhanh phát hiện kháng nguyên hoặc kỹ thuật sinh học phân tử .",
+        "relation": "REVEALS",
         "subj": {
-            "text": "dáng người cao và mảnh mai",
+            "text": "xét nghiệm chẩn đoán nhanh phát hiện kháng nguyên",
+            "start": 173,
+            "end": 222,
+            "type": "DIAGNOSTIC"
+        },
+        "obj": {
+            "text": "sốt rét",
             "start": 51,
-            "end": 77,
-            "type": "SYMPTOM"
+            "end": 58,
+            "type": "DISEASE"
+        }
+    },
+    {
+        "text": "thuốc kháng histamin là những thuốc giúp ngăn ngừa cảm lạnh và nhiều triệu chứng dị ứng , bao gồm sổ mũi .",
+        "relation": "NO_RELATION",
+        "subj": {
+            "text": "thuốc kháng histamin",
+            "start": 0,
+            "end": 20,
+            "type": "TREATMENT"
         },
         "obj": {
-            "text": "xương ức nhô ra ngoài",
-            "start": 121,
-            "end": 142,
-            "type": "SYMPTOM"
+            "text": "cảm lạnh",
+            "start": 51,
+            "end": 59,
+            "type": "DISEASE"
         }
     },
     {
@@ -288,38 +320,6 @@
         }
     },
     {
-        "text": "phương pháp chẩn đoán và điều trị phương pháp xét nghiệm và chẩn đoán cơn đau thắt ngực ngoài việc hỏi bệnh sử đầy đủ và thăm khám lâm sàng về triệu chứng điển hình của cơn đau thắt ngực , bác sĩ có thể yêu cầu bệnh nhân thực hiện một số xét nghiệm để hỗ trợ chẩn đoán như : điện tâm đồ ( ecg ) ; test gắng sức; chụp mạch vành; mri tim; ct scan .",
-        "relation": "No_Relation",
-        "subj": {
-            "text": "ecg",
-            "start": 289,
-            "end": 292,
-            "type": "DIAGNOSTIC"
-        },
-        "obj": {
-            "text": "cơn đau thắt ngực",
-            "start": 70,
-            "end": 87,
-            "type": "DISEASE"
-        }
-    },
-    {
-        "text": "men gan : loại trừ các nguyên nhân khác gây vàng da ldh ( lactate dehydrogenase ) : đánh giá độ nặng của tình trạng tan máu test coombs định lượng bilirubin máu phân tích nước tiểu các biện pháp điều trị bệnh thiếu men g6pd điều trị bệnh thiếu men g6pd quan trọng nhất là loại bỏ các yếu tố khởi phát một đợt cấp , bao gồm : tránh dùng thức ăn hay các loại thuốc đã được xác định gây tan máu .",
-        "relation": "REVEALS",
-        "subj": {
-            "text": "phân tích nước tiểu",
-            "start": 161,
-            "end": 180,
-            "type": "DIAGNOSTIC"
-        },
-        "obj": {
-            "text": "vàng da",
-            "start": 44,
-            "end": 51,
-            "type": "SYMPTOM"
-        }
-    },
-    {
         "text": "ht như là một liệu pháp kết hợp estrogen cộng với progestin , có thể làm tăng nguy cơ ung thư vú , chứng mất trí , bệnh tim , đột quỵ và các cục máu đông , do đó nó không thường được sử dụng để ngăn ngừa khối u đại tràng .",
         "relation": "CAUSES",
         "subj": {
@@ -336,51 +336,51 @@
         }
     },
     {
-        "text": "bệnh nhân có thể không được chẩn đoán mắc bệnh động mạch vành cho đến khi khởi phát đau tim , đau thắt ngực , đột quỵ hoặc suy tim .",
-        "relation": "No_Relation",
+        "text": "các đặc điểm của hội chứng marfan có thể bao gồm : dáng người cao và mảnh mai; tay , chân và ngón tay dài không cân đối; xương ức nhô ra ngoài hoặc lõm vào trong; vòm miệng cao , cong và hàm răng mọc chen chúc; tiếng tim đập; cận thị cực độ; cột sống cong bất thường; bàn chân phẳng .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "suy tim",
-            "start": 123,
-            "end": 130,
+            "text": "tiếng tim đập",
+            "start": 211,
+            "end": 224,
             "type": "SYMPTOM"
         },
         "obj": {
-            "text": "bệnh động mạch vành",
-            "start": 42,
-            "end": 61,
-            "type": "DISEASE"
+            "text": "cột sống cong bất thường",
+            "start": 242,
+            "end": 266,
+            "type": "SYMPTOM"
         }
     },
     {
-        "text": "hiện tượng ứ đọng phân làm tăng quá trình thối rữa và lên men , sinh nhiều hơi , làm bụng chướng đồng thời cũng tăng bài tiết chất nhầy ở ruột , những chất nhầy này sẽ làm tiêu lỏng với phân lẫn chất nhầy và đôi khi có máu .3. phân lẫn máu người bệnh đi tiêu , phân thường có máu do chảy máu ở vị trí ung thư ( bên phải bị nhiều hơn bên trái ) .",
-        "relation": "No_Relation",
+        "text": "trường hợp ung thư lan rộng không thể phẫu thuật , hóa chất đơn thuần hoặc hóa xạ trị đồng thời nhằm giảm triệu chứng , cải thiện chất lượng sống xem thêm : chốc đầu ( nấm da đầu ) : nguyên nhân , triệu chứng , chẩn đoán và điều trị hiểu đúng về cấy tóc cường độ tia uv mạnh nhất vào lúc nào trong ngày ?",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "tiêu lỏng",
-            "start": 172,
-            "end": 181,
+            "text": "chốc đầu",
+            "start": 157,
+            "end": 165,
             "type": "SYMPTOM"
         },
         "obj": {
-            "text": " ứ đọng phân",
-            "start": 10,
-            "end": 22,
-            "type": "DISEASE"
+            "text": "phẫu thuật",
+            "start": 38,
+            "end": 48,
+            "type": "TREATMENT"
         }
     },
     {
-        "text": "ht như là một liệu pháp kết hợp estrogen cộng với progestin , có thể làm tăng nguy cơ ung thư vú , chứng mất trí , bệnh tim , đột quỵ và các cục máu đông , do đó nó không thường được sử dụng để ngăn ngừa khối u đại tràng .",
-        "relation": "No_Relation",
+        "text": "được gọi là ức chế histamin h - 2, các loại thuốc này bao gồm cimetidine ( tagamet hb ) , famotidine ( pepcid ac ) , nizatidine ( axid ar ) hoặc ranitidine ( zantac 75 ) .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "chứng mất trí",
-            "start": 99,
-            "end": 112,
-            "type": "DISEASE"
+            "text": "cimetidine",
+            "start": 62,
+            "end": 72,
+            "type": "TREATMENT"
         },
         "obj": {
-            "text": "ht",
-            "start": 0,
-            "end": 2,
-            "type": "CAUSE"
+            "text": "nizatidine",
+            "start": 117,
+            "end": 127,
+            "type": "TREATMENT"
         }
     },
     {
@@ -416,67 +416,67 @@
         }
     },
     {
-        "text": "các biện pháp điều trị bệnh ung thư xương có những phương pháp điều trị ung thư xương chính : phẫu thuật , hóa chất và xạ trị .",
-        "relation": "No_Relation",
+        "text": "có sẵn thuốc hoặc toa ( otc ) , thuốc chẹn acid bao gồm các thuốc ranitidine ( zantac ) , famotidine ( pepcid ) , cimetidine ( tagamet ) và nizatidine ( axid ) .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "ung thư xương",
-            "start": 72,
-            "end": 85,
-            "type": "DISEASE"
+            "text": "thuốc ranitidine",
+            "start": 60,
+            "end": 76,
+            "type": "TREATMENT"
         },
         "obj": {
-            "text": "phẫu thuật",
-            "start": 94,
-            "end": 104,
+            "text": "axid",
+            "start": 153,
+            "end": 157,
             "type": "TREATMENT"
         }
     },
     {
-        "text": "theo ước tính , có khoảng 1/4 phụ nữ trải qua thời kỳ tiền mãn kinh với các triệu chứng trầm cảm , lo âu , mất ngủ , và tính khí thay đổi thất thường .",
-        "relation": "No_Relation",
+        "text": "một số nguyên nhân gây ù tai ít phổ biến hơn , bao gồm : bệnh meniere : chứng ù tai có thể là một dấu hiệu sớm của bệnh meniere , rối loạn tmj : các vấn đề với khớp thái dương hàm , khớp ở hai bên đầu trước tai , nơi xương hàm dưới gặp sọ của bạn , có thể gây ù tai .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "tính khí thay đổi thất thường",
-            "start": 120,
-            "end": 149,
+            "text": "bệnh meniere",
+            "start": 115,
+            "end": 127,
+            "type": "DISEASE"
+        },
+        "obj": {
+            "text": "ù tai",
+            "start": 78,
+            "end": 83,
             "type": "SYMPTOM"
-        },
-        "obj": {
-            "text": "tiền mãn kinh",
-            "start": 54,
-            "end": 67,
-            "type": "DISEASE"
         }
     },
     {
-        "text": "phương pháp chẩn đoán và điều trị phương pháp xét nghiệm và chẩn đoán cơn đau thắt ngực ngoài việc hỏi bệnh sử đầy đủ và thăm khám lâm sàng về triệu chứng điển hình của cơn đau thắt ngực , bác sĩ có thể yêu cầu bệnh nhân thực hiện một số xét nghiệm để hỗ trợ chẩn đoán như : điện tâm đồ ( ecg ) ; test gắng sức; chụp mạch vành; mri tim; ct scan .",
-        "relation": "REVEALS",
+        "text": "thuốc xịt mũi corticosteroid nếu các triệu chứng không dễ dàng kiểm soát bởi thuốc thông mũi hoặc thuốc chống dị ứng , bác sĩ có thể đề nghị một toa thuốc xịt mũi corticosteroid , chẳng hạn như fluticasone ( flonase ) hoặc ) mometasone ( nasonex ) .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "test gắng sức",
-            "start": 297,
-            "end": 310,
-            "type": "DIAGNOSTIC"
+            "text": "thuốc thông mũi",
+            "start": 77,
+            "end": 92,
+            "type": "TREATMENT"
         },
         "obj": {
-            "text": "cơn đau thắt ngực",
-            "start": 70,
-            "end": 87,
-            "type": "DISEASE"
+            "text": "flonase ",
+            "start": 208,
+            "end": 216,
+            "type": "TREATMENT"
         }
     },
     {
-        "text": "trường hợp bệnh sốt rét xác định : trường hợp bệnh sốt rét xác định là trường hợp có ký sinh trùng sốt rét trong máu được xác định bằng xét nghiệm lam máu nhuộm giemsa hoặc xét nghiệm chẩn đoán nhanh phát hiện kháng nguyên hoặc kỹ thuật sinh học phân tử .",
-        "relation": "No_Relation",
+        "text": "xạ trị xạ trị trước khi phẫu thuật để làm giảm kích thước khối u . xạ trị sau khi phẫu thuật để tiêu diệt tận gốc các tế bào ung thư .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "sốt rét",
-            "start": 51,
-            "end": 58,
-            "type": "DISEASE"
+            "text": "phẫu thuật",
+            "start": 82,
+            "end": 92,
+            "type": "TREATMENT"
         },
         "obj": {
-            "text": "ký sinh trùng sốt rét",
-            "start": 85,
-            "end": 106,
-            "type": "CAUSE"
+            "text": "ung thư",
+            "start": 125,
+            "end": 132,
+            "type": "DISEASE"
         }
     },
     {
@@ -496,19 +496,19 @@
         }
     },
     {
-        "text": "kỹ thuật hình ảnh phổ biến nhất để xác định sa sút trí tuệ là chụp cắt lớp vi tính ( ct ) và hình ảnh cộng hưởng từ ( mri ) .",
-        "relation": "No_Relation",
+        "text": "đây là nguyên nhân phổ biến nhất của động mạch mạc treo tràng thiếu máu cục bộ cấp tính và có thể được gây ra bởi suy tim xung huyết , tim đập không đều ( loạn nhịp tim ) hay nhồi múa cơ tim .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "kỹ thuật hình ảnh",
-            "start": 0,
-            "end": 17,
-            "type": "DIAGNOSTIC"
+            "text": "tim đập không đều",
+            "start": 135,
+            "end": 152,
+            "type": "SYMPTOM"
         },
         "obj": {
-            "text": "ct",
-            "start": 85,
+            "text": "thiếu máu cục bộ cấp tính",
+            "start": 62,
             "end": 87,
-            "type": "DIAGNOSTIC"
+            "type": "CAUSE"
         }
     },
     {
@@ -528,19 +528,19 @@
         }
     },
     {
-        "text": "được gọi là kháng histamin h2, các thuốc này có toa và bao gồm cimetidine ( tagamet hb ) , famotidine ( pepcid ac ) , nizatidine ( axid ar ) và ranitidine ( zantac 75 ) .",
-        "relation": "No_Relation",
+        "text": "nhưng trong một số trường hợp , kháng sinh liên quan đến tiêu chảy dẫn đến viêm đại tràng , viêm ruột già hoặc nghiêm trọng hơn với bệnh viêm ruột kết được gọi là viêm đại tràng giả .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "nizatidine",
-            "start": 118,
-            "end": 128,
-            "type": "TREATMENT"
+            "text": "viêm đại tràng",
+            "start": 75,
+            "end": 89,
+            "type": "DISEASE"
         },
         "obj": {
-            "text": "famotidine",
-            "start": 91,
-            "end": 101,
-            "type": "TREATMENT"
+            "text": "viêm ruột già",
+            "start": 92,
+            "end": 105,
+            "type": "DISEASE"
         }
     },
     {
@@ -560,50 +560,50 @@
         }
     },
     {
-        "text": "điều trị ngoại khoa cho viêm nội tâm mạc nhiễm khuẩn là lấy đi những mảnh sùi hoặc hoại tử mà không thể điều trị nội khoa được , sửa lại van hoặc thay van bị tổn thương .",
-        "relation": "No_Relation",
+        "text": "viêm mạch máu lớn và trung bình như viêm động mạch tế bào khổng lồ , bệnh kawasaki , bệnh takayasu có thể dẫn đến biến chứng nhồi máu cơ tim cấp tính , xuất huyết não , nhồi máu não , phình động mạch chủ , lóc tách động mạch chủ , nhồi máu mạc treo .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "thay van",
-            "start": 146,
-            "end": 154,
-            "type": "TREATMENT"
-        },
-        "obj": {
-            "text": "viêm nội tâm mạc nhiễm khuẩn",
-            "start": 24,
-            "end": 52,
-            "type": "DISEASE"
-        }
-    },
-    {
-        "text": "nguyên nhân bệnh thống kinh hiện nay , người ta chia thống kinh gồm 2 dạng với các nguyên nhân khác nhau : thống kinh vô căn hay còn gọi là thống kinh nguyên phát : nguyên nhân do căng thẳng ở các lần hành kinh đầu tiên của tuổi dậy thì , khi chưa hiểu rõ về hành kinh dẫn tới hiện tượng thống kinh với các mức độ khác nhau .",
-        "relation": "No_Relation",
-        "subj": {
-            "text": "chưa hiểu rõ về hành kinh",
-            "start": 243,
-            "end": 268,
+            "text": "viêm động mạch tế bào khổng lồ",
+            "start": 36,
+            "end": 66,
             "type": "CAUSE"
         },
         "obj": {
-            "text": "thống kinh",
-            "start": 288,
-            "end": 298,
+            "text": "lóc tách động mạch chủ",
+            "start": 206,
+            "end": 228,
             "type": "DISEASE"
         }
     },
     {
-        "text": ". . các triệu chứng thai ngoài tử cung bao gồm : dấu hiệu có thai : nôn nghén , mệt mỏi , chậm kinh ra huyết âm đạo bất thường không trùng với ngày hành kinh , ra máu kéo dài , tính chất máu bất thường như : số lượng ít hơn bình thường , màu sẫm hơn , loãng hơn bình thường .",
-        "relation": "No_Relation",
+        "text": "một số dấu hiệu giúp nhận biết tai biến mạch máu não : đau đầu dữ dội , cơn đau đầu có thể đến rất nhanh , có thể xuất hiện buồn nôn hoặc nôn .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "ra máu kéo dài",
-            "start": 160,
-            "end": 174,
+            "text": "nôn",
+            "start": 138,
+            "end": 141,
             "type": "SYMPTOM"
         },
         "obj": {
-            "text": "mệt mỏi",
-            "start": 80,
-            "end": 87,
+            "text": "đau đầu",
+            "start": 76,
+            "end": 83,
+            "type": "SYMPTOM"
+        }
+    },
+    {
+        "text": "viêm tụy : biểu hiện nặng của quai bị , bệnh nhân đau bụng nhiều , buồn nôn , có khi tụt huyết áp .",
+        "relation": "NO_RELATION",
+        "subj": {
+            "text": "buồn nôn",
+            "start": 67,
+            "end": 75,
+            "type": "SYMPTOM"
+        },
+        "obj": {
+            "text": "đau bụng",
+            "start": 50,
+            "end": 58,
             "type": "SYMPTOM"
         }
     },
@@ -624,19 +624,19 @@
         }
     },
     {
-        "text": "xạ trị tại chỗ ( xạ trị áp sát ) : ngoài phương pháp xạ trị thông thường , hiện nay còn có xạ trị áp sát , nghĩa là dùng nguồn phóng xạ áp sát vào tổn thương ung thư lưỡi để có thể tiêu diệt tổn thương ác tính tại chỗ .",
-        "relation": "No_Relation",
+        "text": "các trường hợp có thể gây tăng tiết mồ hôi thứ phát bao gồm : bệnh đái tháo đường bốc hỏa trong thời kỳ mãn kinh các vấn đề về tuyến giáp lượng đường trong máu thấp một số loại ung thư đau tim rối loạn hệ thần kinh nhiễm trùng một số loại thuốc cũng có thể dẫn đến đổ mồ hôi nhiều , ví dụ như opioid .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "xạ trị",
-            "start": 53,
-            "end": 59,
-            "type": "TREATMENT"
+            "text": "ung thư đau tim rối loạn hệ thần kinh nhiễm trùng một số loại thuốc",
+            "start": 177,
+            "end": 244,
+            "type": "CAUSE"
         },
         "obj": {
-            "text": "xạ trị tại chỗ",
-            "start": 0,
-            "end": 14,
-            "type": "TREATMENT"
+            "text": "bốc hỏa",
+            "start": 82,
+            "end": 89,
+            "type": "SYMPTOM"
         }
     },
     {
@@ -656,50 +656,50 @@
         }
     },
     {
-        "text": "chán ăn : người bệnh cảm thấy khó chịu , miệng đắng , chán ăn là những dấu hiệu chung của nhiễm trùng đường ruột cũng như các loại nhiễm trùng đường tiêu hóa khác .",
-        "relation": "No_Relation",
+        "text": "tuy nhiên , đối với trường hợp không biến chứng , trong đó , ví dụ , viêm giác mạc gây ra bởi một tổn thương hoặc kính áp tròng kéo dài , giải pháp ổn định mắt 24 giờ và thuốc bôi mắt thường có thể được tất cả những gì cần thiết .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "nhiễm trùng đường ruột",
-            "start": 90,
-            "end": 112,
-            "type": "DISEASE"
+            "text": "ổn định mắt 24 giờ",
+            "start": 148,
+            "end": 166,
+            "type": "TREATMENT"
         },
         "obj": {
-            "text": "miệng đắng",
-            "start": 41,
-            "end": 51,
-            "type": "SYMPTOM"
-        }
-    },
-    {
-        "text": "siêu âm qua nội soi : có thể góp phần chẩn đoán ung thư tụy chụp cắt lớp vi tính ( ct scan ) : đây là xét nghiệm được lựa chọn để giúp chẩn đoán ung thư tụy .",
-        "relation": "No_Relation",
-        "subj": {
-            "text": "ung thư tụy",
-            "start": 48,
-            "end": 59,
-            "type": "DISEASE"
-        },
-        "obj": {
-            "text": "ung thư tụy",
-            "start": 145,
-            "end": 156,
+            "text": "viêm giác mạc",
+            "start": 69,
+            "end": 82,
             "type": "DISEASE"
         }
     },
     {
-        "text": "đối với những người bị ung thư tuyến nước bọt , hóa trị thường được sử dụng khi ung thư đã di căn đến các cơ quan ở xa hoặc trong trường hợp không thể kiểm soát được bằng phẫu thuật và xạ trị .",
+        "text": "chẩn đoán xác định dựa vào chỉ số ối : afi nhỏ hơn 5cm là thiểu ối , afi nhỏ hơn 3cm là cạn ối chẩn đoán nguyên nhân dựa vào các xét nghiệm như : siêu âm , xét nghiệm chọc dò nước ối các biện pháp điều trị bệnh thiểu ối thiểu ối điều trị theo nguyên nhân .",
+        "relation": "NO_RELATION",
+        "subj": {
+            "text": "thiểu ối",
+            "start": 220,
+            "end": 228,
+            "type": "DISEASE"
+        },
+        "obj": {
+            "text": "xét nghiệm chọc dò nước ối",
+            "start": 156,
+            "end": 182,
+            "type": "DIAGNOSTIC"
+        }
+    },
+    {
+        "text": "đối tượng nguy cơ bệnh tăng huyết áp thai kỳ tiền sản giật ở thai kỳ trước tuổi &gt;40 hoặc &lt;18 tăng huyết áp mạn tính bệnh thận mạn bệnh tự miễn ( lupus ban đỏ hệ thống , hội chứng kháng phospholipid ) đái tháo đường béo phì có thai bằng thụ tinh nhân tạo đa thai phòng ngừa bệnh tăng huyết áp thai kỳ tránh mang thai , sinh nở khi tuổi cao giảm cân trước khi mang thai ( nếu thừa cân ) chế độ ăn lành mạnh : nhiều rau xanh , hoa quả , ít mỡ động vật , thay bằng dầu thực vật để giảm nguy cơ mắc đái tháo đường thai kỳ tập thể dục thường xuyên trước khi mang thai .",
         "relation": "TREATED_WITH",
         "subj": {
-            "text": "ung thư tuyến nước bọt",
-            "start": 23,
-            "end": 45,
+            "text": "bệnh tăng huyết áp thai kỳ",
+            "start": 18,
+            "end": 44,
             "type": "DISEASE"
         },
         "obj": {
-            "text": "hóa trị",
-            "start": 48,
-            "end": 55,
+            "text": "tập thể dục thường xuyên",
+            "start": 523,
+            "end": 547,
             "type": "TREATMENT"
         }
     },
@@ -720,34 +720,34 @@
         }
     },
     {
-        "text": "bệnh nhân bị hội chứng brugada có triệu chứng như ngất hay ngừng tuần hoàn khi được cứu sống cần chỉ định cấy máy tạo nhịp – phá rung tự động ( icd ) .",
-        "relation": "No_Relation",
+        "text": ". . các triệu chứng thai ngoài tử cung bao gồm : dấu hiệu có thai : nôn nghén , mệt mỏi , chậm kinh ra huyết âm đạo bất thường không trùng với ngày hành kinh , ra máu kéo dài , tính chất máu bất thường như : số lượng ít hơn bình thường , màu sẫm hơn , loãng hơn bình thường .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "ngừng tuần hoàn",
-            "start": 59,
-            "end": 74,
+            "text": "a huyết âm đạo bất thường không trùng với ngày hành kinh",
+            "start": 101,
+            "end": 157,
             "type": "SYMPTOM"
         },
         "obj": {
-            "text": "icd",
-            "start": 144,
-            "end": 147,
-            "type": "TREATMENT"
+            "text": "chậm kinh",
+            "start": 90,
+            "end": 99,
+            "type": "SYMPTOM"
         }
     },
     {
-        "text": "người lớn có thể nhận được một giọt nước mắt bị chặn ống như là một kết quả của một nhiễm trùng , viêm , chấn thương hoặc một khối u . một ống dẫn nước mắt bị chặn hầu như luôn luôn cần sửa chữa , nhưng điều trị phụ thuộc vào nguyên nhân và độ tuổi .",
-        "relation": "No_Relation",
+        "text": "các tác dụng phụ thường gặp nhất của adalimumab là kích thích da và đau ở chỗ tiêm , buồn nôn , chảy nước mũi và nhiễm trùng hô hấp trên .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "một nhiễm trùng",
-            "start": 80,
-            "end": 95,
-            "type": "CAUSE"
+            "text": "adalimumab",
+            "start": 37,
+            "end": 47,
+            "type": "TREATMENT"
         },
         "obj": {
-            "text": "ống dẫn nước mắt bị chặn",
-            "start": 139,
-            "end": 163,
+            "text": "nhiễm trùng hô hấp trên",
+            "start": 113,
+            "end": 136,
             "type": "DISEASE"
         }
     },
@@ -768,51 +768,51 @@
         }
     },
     {
-        "text": "xử trí hội chứng budd - chiari : chống đông , nong mạch/tiêu huyết khối , tips và ghép gan trực tràng .",
-        "relation": "No_Relation",
+        "text": "ht như là một liệu pháp kết hợp estrogen cộng với progestin , có thể làm tăng nguy cơ ung thư vú , chứng mất trí , bệnh tim , đột quỵ và các cục máu đông , do đó nó không thường được sử dụng để ngăn ngừa khối u đại tràng .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "ghép gan trực tràng",
-            "start": 82,
-            "end": 101,
-            "type": "TREATMENT"
-        },
-        "obj": {
-            "text": "tips",
-            "start": 74,
-            "end": 78,
-            "type": "TREATMENT"
-        }
-    },
-    {
-        "text": "một số biểu hiện khác cũng cần được chú ý như : sốt vã mồ hôi , run rẩy , kiệt sức thường xuyên thở dài hoặc ngáp nhiễm trùng , chảy máu suy giảm thị lực như nhìn mờ hoặc tầm nhìn đường hầm , nhìn thấy ảo ảnh .",
-        "relation": "No_Relation",
-        "subj": {
-            "text": "chảy máu",
-            "start": 128,
-            "end": 136,
-            "type": "SYMPTOM"
-        },
-        "obj": {
-            "text": "nhìn thấy ảo ảnh",
-            "start": 192,
-            "end": 208,
-            "type": "SYMPTOM"
-        }
-    },
-    {
-        "text": "phương pháp điều trị block nhĩ thất hiệu quả cấy máy tạo nhịp tim cấy máy tạo nhịp tim ( hoặc máy khử rung tim nếu có rối loạn chức năng tâm thất ) được chỉ định cho block nhĩ thất ( av ) có triệu chứng , không hồi phục .",
-        "relation": "No_Relation",
-        "subj": {
-            "text": "cấy máy tạo nhịp tim",
-            "start": 45,
-            "end": 65,
-            "type": "TREATMENT"
-        },
-        "obj": {
-            "text": "block nhĩ thất",
-            "start": 21,
-            "end": 35,
+            "text": "chứng mất trí",
+            "start": 99,
+            "end": 112,
             "type": "DISEASE"
+        },
+        "obj": {
+            "text": "bệnh tim",
+            "start": 115,
+            "end": 123,
+            "type": "DISEASE"
+        }
+    },
+    {
+        "text": "nitroglycerin : sử dụng nitroglycerin dưới lưỡi mỗi 5 phút x 3 lần cho đau ngực liên tục do thiếu máu cơ tim và sau đó nên dùng nitroglycerin đường tĩnh mạch nếu bệnh nhân có biểu hiện thiếu máu cơ tim kéo dài , tăng huyết áp , suy tim .",
+        "relation": "NO_RELATION",
+        "subj": {
+            "text": "suy tim",
+            "start": 228,
+            "end": 235,
+            "type": "DISEASE"
+        },
+        "obj": {
+            "text": "thiếu máu cơ tim",
+            "start": 185,
+            "end": 201,
+            "type": "DISEASE"
+        }
+    },
+    {
+        "text": "hormone thay đổi thay đổi nội tiết tố do thai kỳ , kinh nguyệt , sử dụng thuốc tránh thai hoặc điều kiện nội tiết như suy giáp có thể gây ra viêm mũi không dị ứng .",
+        "relation": "NO_RELATION",
+        "subj": {
+            "text": "hormone thay đổi",
+            "start": 0,
+            "end": 16,
+            "type": "CAUSE"
+        },
+        "obj": {
+            "text": "sử dụng thuốc tránh thai",
+            "start": 65,
+            "end": 89,
+            "type": "CAUSE"
         }
     },
     {
@@ -832,34 +832,34 @@
         }
     },
     {
-        "text": "x - quang ngực : thường chỉ thấy các dấu hiệu gián tiếp như cung động mạch phổi nổi , nhĩ trái giãn , thất trái giãn thông tim ống lớn : để tính chính xác áp lực động mạch phổi , đưa ra quyết định điều trị phù hợp các biện pháp điều trị bệnh thông liên thất điều trị bệnh thông liên thất có hai phương pháp chính : phẫu thuật vá lỗ thông hoặc can thiệp bít thông liên thất bằng dù .",
-        "relation": "No_Relation",
+        "text": "một số loại thuốc , bao gồm thuốc an thần , opioid và thuốc được sử dụng để điều trị rối loạn nhịp tim , huyết áp cao và một số rối loạn sức khỏe tâm thần nhất định .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "x - quang ngực",
-            "start": 0,
-            "end": 14,
-            "type": "DIAGNOSTIC"
-        },
-        "obj": {
-            "text": "phẫu thuật vá lỗ thông",
-            "start": 315,
-            "end": 337,
-            "type": "TREATMENT"
-        }
-    },
-    {
-        "text": "bệnh nhân bị xơ gan có xuất huyết tiêu hoá có nguy cơ nhiễm khuẩn và nên được điều trị dự phòng bằng kháng sinh với norfloxacin hoặc ceftriaxone .",
-        "relation": "TREATED_WITH",
-        "subj": {
-            "text": "xuất huyết tiêu hoá",
-            "start": 23,
-            "end": 42,
+            "text": "rối loạn sức khỏe tâm thần",
+            "start": 128,
+            "end": 154,
             "type": "DISEASE"
         },
         "obj": {
-            "text": "kháng sinh",
-            "start": 101,
-            "end": 111,
+            "text": "rối loạn nhịp tim",
+            "start": 85,
+            "end": 102,
+            "type": "DISEASE"
+        }
+    },
+    {
+        "text": "các biện pháp điều trị bệnh ung thư xương có những phương pháp điều trị ung thư xương chính : phẫu thuật , hóa chất và xạ trị .",
+        "relation": "TREATED_WITH",
+        "subj": {
+            "text": "bệnh ung thư xương",
+            "start": 23,
+            "end": 41,
+            "type": "DISEASE"
+        },
+        "obj": {
+            "text": "phẫu thuật",
+            "start": 94,
+            "end": 104,
             "type": "TREATMENT"
         }
     },
@@ -880,35 +880,35 @@
         }
     },
     {
-        "text": "suy tim giai đoạn c : bệnh nhân có bệnh tim thực thể kèm theo triệu chứng cơ năng của suy tim trước đây hoặc hiện tại ( mệt , khó thở , giảm khả năng gắng sức ) .",
-        "relation": "No_Relation",
+        "text": "ở người lớn mắc bệnh rubella thường sốt và phát ban nhiều hơn , kèm theo mệt mỏi , biếng ăn , đau khớp .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "mệt",
-            "start": 120,
-            "end": 123,
+            "text": "phát ban",
+            "start": 43,
+            "end": 51,
             "type": "SYMPTOM"
         },
         "obj": {
-            "text": "khó thở",
-            "start": 126,
-            "end": 133,
+            "text": "mệt mỏi",
+            "start": 73,
+            "end": 80,
             "type": "SYMPTOM"
         }
     },
     {
-        "text": "các dấu hiệu và triệu chứng của bệnh huntington sau đó có thể bao gồm đột ngột giật , chuyển động không tự nguyện ( bệnh máy tay ) trên khắp cơ thể .",
-        "relation": "No_Relation",
+        "text": "ngoài ra , một chấn thương có thể cho phép vi khuẩn hoặc nấm để truy cập vào giác mạc thông qua các bề mặt bị hư hỏng , gây ra viêm giác mạc có liên quan đến nhiễm trùng .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "đột ngột giật",
-            "start": 70,
-            "end": 83,
-            "type": "SYMPTOM"
+            "text": " nhiễm trùng",
+            "start": 157,
+            "end": 169,
+            "type": "DISEASE"
         },
         "obj": {
-            "text": "chuyển động không tự nguyện",
-            "start": 86,
-            "end": 113,
-            "type": "SYMPTOM"
+            "text": "một chấn thương",
+            "start": 11,
+            "end": 26,
+            "type": "CAUSE"
         }
     },
     {
@@ -944,19 +944,19 @@
         }
     },
     {
-        "text": "hãy đến gặp bác sĩ ngay khi bạn có các dấu hiệu hoặc có nguy cơ cao của bệnh u trung thất như như : đau ngực , ho , sốt , khó thở , sút cân .",
-        "relation": "No_Relation",
+        "text": "viêm mạch máu lớn và trung bình như viêm động mạch tế bào khổng lồ , bệnh kawasaki , bệnh takayasu có thể dẫn đến biến chứng nhồi máu cơ tim cấp tính , xuất huyết não , nhồi máu não , phình động mạch chủ , lóc tách động mạch chủ , nhồi máu mạc treo .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "bệnh u trung thất",
-            "start": 72,
-            "end": 89,
+            "text": "lóc tách động mạch chủ",
+            "start": 206,
+            "end": 228,
             "type": "DISEASE"
         },
         "obj": {
-            "text": "sốt",
-            "start": 116,
-            "end": 119,
-            "type": "SYMPTOM"
+            "text": "xuất huyết não",
+            "start": 152,
+            "end": 166,
+            "type": "DISEASE"
         }
     },
     {
@@ -976,67 +976,67 @@
         }
     },
     {
-        "text": "nếu có viêm kết mạc dị ứng , có thể gặp ngứa dữ dội , chảy nước mắt và viêm mắt - cũng như hắt hơi và chảy nước mũi chảy nước .",
-        "relation": "No_Relation",
+        "text": "các đặc điểm của hội chứng marfan có thể bao gồm : dáng người cao và mảnh mai; tay , chân và ngón tay dài không cân đối; xương ức nhô ra ngoài hoặc lõm vào trong; vòm miệng cao , cong và hàm răng mọc chen chúc; tiếng tim đập; cận thị cực độ; cột sống cong bất thường; bàn chân phẳng .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": " viêm mắt",
-            "start": 70,
-            "end": 79,
+            "text": "cận thị cực độ",
+            "start": 226,
+            "end": 240,
             "type": "SYMPTOM"
         },
         "obj": {
-            "text": "chảy nước mũi",
-            "start": 102,
-            "end": 115,
+            "text": "tiếng tim đập",
+            "start": 211,
+            "end": 224,
             "type": "SYMPTOM"
         }
     },
     {
-        "text": "một số bệnh đường tiêu hóa gây đầy hơi và chướng bụng , bao gồm cả vi khuẩn đường ruột phát triển quá mức ( sibo ) , bệnh celiac , suy tuyến tụy ngoại tiết ( epi ) và bệnh viêm ruột ( ibd ) .",
-        "relation": "No_Relation",
+        "text": "người suy giảm miễn dịch , dễ bị nhiễm virus , vi khuẩn… yếu tố làm tăng nguy cơ mắc viêm màng ngoài tim một số yếu tố làm tăng nguy cơ mắc viêm màng ngoài tim : tiền sử phẫu thuật tim hoặc bị các cơn đau tim .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "bệnh celiac",
-            "start": 117,
-            "end": 128,
+            "text": "phẫu thuật tim",
+            "start": 170,
+            "end": 184,
+            "type": "TREATMENT"
+        },
+        "obj": {
+            "text": "cơn đau tim",
+            "start": 197,
+            "end": 208,
+            "type": "SYMPTOM"
+        }
+    },
+    {
+        "text": "đôi khi các vi khuẩn gây nhiễm trùng gây ra viêm nắp thanh quản ở nơi khác trong cơ thể , chẳng hạn như viêm phổi , viêm màng não hoặc nhiễm trùng máu ( nhiễm trùng huyết ) .",
+        "relation": "NO_RELATION",
+        "subj": {
+            "text": "nhiễm trùng máu",
+            "start": 135,
+            "end": 150,
             "type": "DISEASE"
         },
         "obj": {
-            "text": "suy tuyến tụy ngoại tiết",
-            "start": 131,
-            "end": 155,
+            "text": "nhiễm trùng",
+            "start": 25,
+            "end": 36,
             "type": "DISEASE"
         }
     },
     {
-        "text": "tùy thuộc vào tình hình có thể bao gồm : chụp cộng hưởng từ ( mri ) đầu , cổ và ngực để xác định khối u , các dấu hiệu của đột quỵ , tổn thương động mạch cảnh và vấn đề khác có thể ảnh hưởng đến các dây thần kinh giao cảm trên khuôn mặt .",
-        "relation": "No_Relation",
+        "text": "phương pháp chữa trị lâu dài giảm stress , căng thẳng : nếu mắc hội chứng tăng thông khí , người bệnh cần hạn chế mọi tác nhân gây stress , căng thẳng và nhờ sự tư vấn , hỗ trợ thêm của các chuyên gia tâm lý .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "đột quỵ",
-            "start": 123,
-            "end": 130,
-            "type": "DISEASE"
-        },
-        "obj": {
-            "text": "chụp cộng hưởng từ",
-            "start": 41,
-            "end": 59,
-            "type": "DIAGNOSTIC"
-        }
-    },
-    {
-        "text": "các dấu hiệu và triệu chứng của chứng mất trí này có thể bao gồm các hành vi xã hội không thích hợp , mất tính linh hoạt về tinh thần , vấn đề ngôn ngữ và khó khăn với tư duy và tập trung , thường xuất hiện trong độ tuổi từ 40 và 65. các rối loạn khác liên quan đến chứng mất trí bệnh huntington .",
-        "relation": "No_Relation",
-        "subj": {
-            "text": "thường xuất hiện trong độ tuổi từ 40 và 65",
-            "start": 191,
-            "end": 233,
+            "text": "stress",
+            "start": 34,
+            "end": 40,
             "type": "SYMPTOM"
         },
         "obj": {
-            "text": " ",
-            "start": 164,
-            "end": 165,
-            "type": "DISEASE"
+            "text": "căng thẳng",
+            "start": 43,
+            "end": 53,
+            "type": "SYMPTOM"
         }
     },
     {
@@ -1056,35 +1056,35 @@
         }
     },
     {
-        "text": "bệnh sốt rét là bệnh truyền nhiễm do loài ký sinh trùng plasmodium gây ra , gồm : plasmodium falciparum , plasmodium vivax , plasmodium malariae , plasmodium ovale và plasmodium knowlesi .",
-        "relation": "No_Relation",
+        "text": "bệnh nhân nôn nghiêm trọng , nôn kéo dài hơn 1 ngày , hoặc có dấu hiệu mất nước khi thăm khám phải làm thêm các xét nghiệm ( như xét nghiệm điện giải , bun , creatinine , glucose , xét nghiệm nước tiểu , đôi khi xét nghiệm chức năng gan ) .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "plasmodium vivax",
-            "start": 106,
-            "end": 122,
-            "type": "CAUSE"
+            "text": "bun",
+            "start": 152,
+            "end": 155,
+            "type": "DIAGNOSTIC"
         },
         "obj": {
-            "text": "ký sinh trùng plasmodium",
-            "start": 42,
-            "end": 66,
-            "type": "CAUSE"
+            "text": "glucose",
+            "start": 171,
+            "end": 178,
+            "type": "DIAGNOSTIC"
         }
     },
     {
-        "text": "thuốc như thuốc chống trầm cảm và thuốc chống lo âu cũng có thể giúp đỡ với các triệu chứng của trầm cảm hoặc lo lắng - thường xuyên liên kết với rối loạn ăn uống .",
-        "relation": "No_Relation",
+        "text": "các triệu chứng dị tật tim bẩm sinh ở trẻ em bao gồm : da hoặc môi xanh xám hoặc xanh xao ( tím tái ) .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "trầm cảm",
-            "start": 96,
-            "end": 104,
-            "type": "DISEASE"
+            "text": "da",
+            "start": 55,
+            "end": 57,
+            "type": "SYMPTOM"
         },
         "obj": {
-            "text": "rối loạn ăn uống",
-            "start": 146,
-            "end": 162,
-            "type": "DISEASE"
+            "text": "môi xanh xám",
+            "start": 63,
+            "end": 75,
+            "type": "SYMPTOM"
         }
     },
     {
@@ -1120,44 +1120,92 @@
         }
     },
     {
-        "text": "chụp cắt lớp vi tính ổ bụng đánh giá vị trí , kích thước và mức độ xâm lấn xung quanh của ung thư túi mật siêu âm ổ bụng phương pháp đơn giản , dễ thực hiện giúp đánh giá sơ bộ túi mật và đường mật cũng như cơ quan trong ổ bụng các biện pháp điều trị bệnh ung thư túi mật điều trị ung thư túi mật bao gồm các phương pháp sau : phẫu thuật cắt túi mật : cắt bỏ túi mật đơn giản .",
-        "relation": "No_Relation",
+        "text": "phương pháp chẩn đoán và điều trị phương pháp xét nghiệm và chẩn đoán cơn đau thắt ngực ngoài việc hỏi bệnh sử đầy đủ và thăm khám lâm sàng về triệu chứng điển hình của cơn đau thắt ngực , bác sĩ có thể yêu cầu bệnh nhân thực hiện một số xét nghiệm để hỗ trợ chẩn đoán như : điện tâm đồ ( ecg ) ; test gắng sức; chụp mạch vành; mri tim; ct scan .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "phẫu thuật cắt túi mật",
-            "start": 327,
-            "end": 349,
+            "text": "test gắng sức",
+            "start": 297,
+            "end": 310,
+            "type": "DIAGNOSTIC"
+        },
+        "obj": {
+            "text": "mri tim",
+            "start": 328,
+            "end": 335,
+            "type": "DIAGNOSTIC"
+        }
+    },
+    {
+        "text": "nguyên nhân các nguyên nhân gây ra chảy máu nội sọ ( xuất huyết ) thường là một chấn thương vào đầu , thường là kết quả của một tai nạn ô tô hoặc xe gắn máy hay một sự kiện có vẻ tầm thường , chẳng hạn như va chạm đầu .",
+        "relation": "NO_RELATION",
+        "subj": {
+            "text": "va chạm đầu",
+            "start": 206,
+            "end": 217,
+            "type": "CAUSE"
+        },
+        "obj": {
+            "text": "kết quả của một tai nạn ô tô hoặc xe gắn máy hay một sự kiện có vẻ tầm thường ",
+            "start": 112,
+            "end": 190,
+            "type": "CAUSE"
+        }
+    },
+    {
+        "text": "nghẹt mũi kéo dài do sốt hay có thể làm tăng tính nhạy cảm viêm xoang - nhiễm trùng hoặc viêm màng các xoang .",
+        "relation": "NO_RELATION",
+        "subj": {
+            "text": "nhiễm trùng",
+            "start": 72,
+            "end": 83,
+            "type": "DISEASE"
+        },
+        "obj": {
+            "text": "nghẹt mũi kéo dài",
+            "start": 0,
+            "end": 17,
+            "type": "SYMPTOM"
+        }
+    },
+    {
+        "text": "đối tượng nguy cơ bệnh ung thư hậu môn người nhiễm hpv người hút thuốc lá kéo dài người suy giảm miễn dịch : hiv , dùng thuốc ức chế miễn dịch ( tự miễn , ghép tạng . . ) người quan hệ tình dục không an toàn người có nhiều bạn tình bệnh nhân rò hậu môn kéo dài , không điều trị .",
+        "relation": "NO_RELATION",
+        "subj": {
+            "text": "thuốc ức chế miễn dịch",
+            "start": 120,
+            "end": 142,
             "type": "TREATMENT"
         },
         "obj": {
-            "text": "ung thư túi mật",
-            "start": 281,
-            "end": 296,
+            "text": "rò hậu môn",
+            "start": 242,
+            "end": 252,
             "type": "DISEASE"
         }
     },
     {
-        "text": "trường hợp ung thư lan rộng không thể phẫu thuật , hóa chất đơn thuần hoặc hóa xạ trị đồng thời nhằm giảm triệu chứng , cải thiện chất lượng sống xem thêm : chốc đầu ( nấm da đầu ) : nguyên nhân , triệu chứng , chẩn đoán và điều trị hiểu đúng về cấy tóc cường độ tia uv mạnh nhất vào lúc nào trong ngày ?",
-        "relation": "NO_RELATION",
+        "text": "phương pháp chẩn đoán và điều trị phương pháp xét nghiệm và chẩn đoán cơn đau thắt ngực ngoài việc hỏi bệnh sử đầy đủ và thăm khám lâm sàng về triệu chứng điển hình của cơn đau thắt ngực , bác sĩ có thể yêu cầu bệnh nhân thực hiện một số xét nghiệm để hỗ trợ chẩn đoán như : điện tâm đồ ( ecg ) ; test gắng sức; chụp mạch vành; mri tim; ct scan .",
+        "relation": "REVEALS",
         "subj": {
-            "text": "ung thư lan rộng",
-            "start": 11,
-            "end": 27,
-            "type": "DISEASE"
+            "text": "test gắng sức",
+            "start": 297,
+            "end": 310,
+            "type": "DIAGNOSTIC"
         },
         "obj": {
-            "text": "hóa xạ trị đồng thời",
-            "start": 75,
-            "end": 95,
-            "type": "TREATMENT"
+            "text": "cơn đau thắt ngực",
+            "start": 70,
+            "end": 87,
+            "type": "DISEASE"
         }
     },
     {
         "text": "viêm phổi là tình trạng nhiễm trùng ở phổi , có rất nhiều nguyên nhân khác nhau như vi trùng , siêu vi trùng và ký sinh trùng… suy tim ứ huyết .",
-        "relation": "No_Relation",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "siêu vi trùng",
-            "start": 95,
-            "end": 108,
+            "text": "suy tim ứ huyết",
+            "start": 127,
+            "end": 142,
             "type": "CAUSE"
         },
         "obj": {
@@ -1165,54 +1213,6 @@
             "start": 84,
             "end": 92,
             "type": "CAUSE"
-        }
-    },
-    {
-        "text": "nghề nghiệp tiếp xúc với khói trong một số trường hợp viêm mũi không dị ứng được kích hoạt bởi việc tiếp xúc với một chất kích thích không khí ở nơi làm việc ( viêm mũi lao động ) .",
-        "relation": "No_Relation",
-        "subj": {
-            "text": "tiếp xúc với một chất kích thích không khí ở nơi làm việc",
-            "start": 100,
-            "end": 157,
-            "type": "CAUSE"
-        },
-        "obj": {
-            "text": "viêm mũi lao động",
-            "start": 160,
-            "end": 177,
-            "type": "DISEASE"
-        }
-    },
-    {
-        "text": "các biện pháp điều trị bệnh ung thư hậu môn điều trị ung thư trực tràng hiện nay có 3 phương pháp chính : phẫu thuật , xạ trị và hóa chất .",
-        "relation": "TREATED_WITH",
-        "subj": {
-            "text": "ung thư trực tràng",
-            "start": 53,
-            "end": 71,
-            "type": "DISEASE"
-        },
-        "obj": {
-            "text": "phẫu thuật",
-            "start": 106,
-            "end": 116,
-            "type": "TREATMENT"
-        }
-    },
-    {
-        "text": "tìm kiếm sự chăm sóc y tế kịp thời nếu nôn đi kèm với các dấu hiệu cảnh báo khác , chẳng hạn như : tức ngực; đau bụng dữ dội hoặc chuột rút ; nhìn mờ; sự hoang mang; sốt cao và cứng cổ; phân hoặc mùi phân trong chất nôn; chảy máu trực tràng .",
-        "relation": "No_Relation",
-        "subj": {
-            "text": "nhìn mờ",
-            "start": 143,
-            "end": 150,
-            "type": "SYMPTOM"
-        },
-        "obj": {
-            "text": "sự hoang mang;",
-            "start": 152,
-            "end": 166,
-            "type": "SYMPTOM"
         }
     },
     {
@@ -1232,18 +1232,18 @@
         }
     },
     {
-        "text": "phòng ngừa bệnh u tuyến nước bọt hạn chế uống rượu , bia , hút thuốc lá cung cấp đầy đủ dinh dưỡng hàng ngày các biện pháp chẩn đoán bệnh u tuyến nước bọt chẩn đoán khối u tuyến nước bọt bao gồm : khám lâm sàng : bác sĩ sẽ cảm thấy hàm , cổ và cổ của bạn bị vón cục hoặc sưng .",
+        "text": "bệnh nhân bị hội chứng brugada có triệu chứng như ngất hay ngừng tuần hoàn khi được cứu sống cần chỉ định cấy máy tạo nhịp – phá rung tự động ( icd ) .",
         "relation": "TREATED_WITH",
         "subj": {
-            "text": "bệnh u tuyến nước bọt",
-            "start": 133,
-            "end": 154,
+            "text": "hội chứng brugada",
+            "start": 13,
+            "end": 30,
             "type": "DISEASE"
         },
         "obj": {
-            "text": "hạn chế uống rượu",
-            "start": 33,
-            "end": 50,
+            "text": "phá rung tự động",
+            "start": 125,
+            "end": 141,
             "type": "TREATMENT"
         }
     },
@@ -1264,50 +1264,50 @@
         }
     },
     {
-        "text": ". . các tình trạng ở tim như cơn đau tim , rối loạn thần kinh tim nhiễm ceton axit ( một biến chứng của lượng đường trong máu cao ở bệnh nhân mắc bệnh tiểu đường tuýp 1 ) chấn thương vùng đầu , tổn thương cầu não , hành não và trung não , chấn thương sọ não , áp lực nội sọ đi du lịch đến độ cao trên 800m triệu chứng bệnh tăng thông khí tăng thông khí có hai hình thức chính : tăng thông khí hàng ngày và tăng thông khí đột ngột .",
-        "relation": "No_Relation",
+        "text": "các biện pháp điều trị bệnh thiên đầu thống ( tăng nhãn áp ) sau khi khám và chẩn đoán , tuỳ từng trường hợp , bác sĩ sẽ đưa ra hướng điều trị thích hợp , bao gồm : điều trị bằng thuốc nhỏ mắt , điều trị bằng laser hay phẫu thuật .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "tăng thông khí hàng ngày",
-            "start": 378,
-            "end": 402,
+            "text": "thuốc nhỏ mắt",
+            "start": 179,
+            "end": 192,
+            "type": "TREATMENT"
+        },
+        "obj": {
+            "text": "tăng nhãn áp",
+            "start": 46,
+            "end": 58,
             "type": "DISEASE"
-        },
-        "obj": {
-            "text": "áp lực nội sọ đi du lịch đến độ cao trên 800m",
-            "start": 260,
-            "end": 305,
-            "type": "CAUSE"
         }
     },
     {
-        "text": "đôi khi u đại tràng lớn có thể cản trở một phần ruột , dẫn đến đau bụng , buồn nôn , nôn và táo bón nặng .",
-        "relation": "No_Relation",
+        "text": "gần như tất cả những người trải nghiệm một số bệnh ung thư , dấu hiệu thường gặp và triệu chứng của đau khổ sau khi chẩn đoán có thể bao gồm buồn phiền , tức giận , khó tập trung , khó ngủ và chán ăn .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "đau bụng",
-            "start": 63,
-            "end": 71,
+            "text": "khó ngủ",
+            "start": 181,
+            "end": 188,
             "type": "SYMPTOM"
         },
         "obj": {
-            "text": "táo bón nặng",
-            "start": 92,
-            "end": 104,
+            "text": "chán ăn",
+            "start": 192,
+            "end": 199,
             "type": "SYMPTOM"
         }
     },
     {
-        "text": "rối loạn nhịp tim : như block nhĩ thất ( cần đặt các loại máy tạo nhịp ) , rung nhĩ , nhịp nhanh thất hay rung thất gây đột tử .",
+        "text": "các biện pháp điều trị bệnh thiên đầu thống ( tăng nhãn áp ) sau khi khám và chẩn đoán , tuỳ từng trường hợp , bác sĩ sẽ đưa ra hướng điều trị thích hợp , bao gồm : điều trị bằng thuốc nhỏ mắt , điều trị bằng laser hay phẫu thuật .",
         "relation": "TREATED_WITH",
         "subj": {
-            "text": "block nhĩ thất",
-            "start": 24,
-            "end": 38,
+            "text": "tăng nhãn áp",
+            "start": 46,
+            "end": 58,
             "type": "DISEASE"
         },
         "obj": {
-            "text": "cần đặt các loại máy tạo nhịp",
-            "start": 41,
-            "end": 70,
+            "text": "thuốc nhỏ mắt",
+            "start": 179,
+            "end": 192,
             "type": "TREATMENT"
         }
     },
@@ -1344,35 +1344,35 @@
         }
     },
     {
-        "text": "tuy nhiên khi tình trạng trở nên nghiêm trọng , người bệnh sẽ gặp một vài dấu hiệu sau : mệt mỏi; mạch đập bất thường ( loạn nhịp tim ) ; xung huyết ở cổ; đau tức ngực , khó thở xảy ra khi hoạt động; lượng nước tiểu ít; sưng ở bụng , chân hoặc tĩnh mạch cổ .",
-        "relation": "No_Relation",
+        "text": "chảy máu do giãn tĩnh mạch thực quản là nguyên nhân phổ biến thứ ba của chảy máu đường tiêu hóa trên , sau loét tá tràng và dạ dày .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "loạn nhịp tim",
-            "start": 120,
-            "end": 133,
-            "type": "SYMPTOM"
+            "text": "chảy máu đường tiêu hóa trên",
+            "start": 72,
+            "end": 100,
+            "type": "DISEASE"
         },
         "obj": {
-            "text": "khó thở",
-            "start": 170,
-            "end": 177,
-            "type": "SYMPTOM"
+            "text": "loét tá tràng và dạ dày",
+            "start": 107,
+            "end": 130,
+            "type": "CAUSE"
         }
     },
     {
-        "text": "các biện pháp điều trị bệnh thiếu máu cơ tim điều trị thiếu máu cơ tim gồm có điều trị nội khoa và tái thông mạch vành bằng can thiệp , phẫu thuật .",
-        "relation": "No_Relation",
+        "text": "tìm kiếm sự chăm sóc y tế kịp thời nếu nôn đi kèm với các dấu hiệu cảnh báo khác , chẳng hạn như : tức ngực; đau bụng dữ dội hoặc chuột rút ; nhìn mờ; sự hoang mang; sốt cao và cứng cổ; phân hoặc mùi phân trong chất nôn; chảy máu trực tràng .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "phẫu thuật",
-            "start": 136,
-            "end": 146,
-            "type": "TREATMENT"
+            "text": "tức ngực",
+            "start": 99,
+            "end": 108,
+            "type": "SYMPTOM"
         },
         "obj": {
-            "text": "bệnh thiếu máu cơ tim",
-            "start": 23,
-            "end": 44,
-            "type": "DISEASE"
+            "text": "sự hoang mang;",
+            "start": 152,
+            "end": 166,
+            "type": "SYMPTOM"
         }
     },
     {
@@ -1392,19 +1392,19 @@
         }
     },
     {
-        "text": "thuốc xịt mũi corticosteroid nếu các triệu chứng không dễ dàng kiểm soát bởi thuốc thông mũi hoặc thuốc chống dị ứng , bác sĩ có thể đề nghị một toa thuốc xịt mũi corticosteroid , chẳng hạn như fluticasone ( flonase ) hoặc ) mometasone ( nasonex ) .",
-        "relation": "No_Relation",
+        "text": "phẫu thuật cắt bỏ ung thư dạ dày : ung thư dạ dày giai đoạn sớm có thể điều trị bằng kỹ thuật nội soi emr , esd .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "thuốc xịt mũi corticosteroid",
-            "start": 0,
-            "end": 28,
+            "text": "nội soi emr",
+            "start": 94,
+            "end": 105,
             "type": "TREATMENT"
         },
         "obj": {
-            "text": "thuốc thông mũi",
-            "start": 77,
-            "end": 92,
-            "type": "TREATMENT"
+            "text": "ung thư dạ dày",
+            "start": 35,
+            "end": 49,
+            "type": "DISEASE"
         }
     },
     {
@@ -1440,19 +1440,19 @@
         }
     },
     {
-        "text": ". . ) chứa nhiều chất béo bão hòa và muối gây tăng nguy cơ mắc các bệnh tim mạch , rối loạn lipid , tăng huyết áp , ung thư… khi uống nhiều rượu bia , các chất chuyển hóa của rượu có khuynh hướng tổng hợp thành chất béo dẫn đến tăng huyết áp , bệnh tim mạch , rối loạn lipid máu , tổn thương tế bào gan , tế bào thần kinh , đột quỵ .",
-        "relation": "No_Relation",
+        "text": "các biện pháp được dùng để chẩn đoán tắc ống phóng tinh bao gồm : dựa trên lâm sàng : các bác sĩ sẽ thăm khám cơ quan sinh dục và kết hợp với phần bệnh sử liên quan đến dấu hiệu của viêm nhiễm như : tình trạng xuất tinh máu viêm niệu đạo viêm tiền liệt tuyến tiền sử phẫu thuật bìu xét nghiệm tinh dịch đồ : đây là một trong những xét nghiệm cơ bản và không thể thiếu trong khám vô sinh nam .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "tăng huyết áp",
-            "start": 100,
-            "end": 113,
-            "type": "DISEASE"
+            "text": "xét nghiệm tinh dịch đồ",
+            "start": 282,
+            "end": 305,
+            "type": "DIAGNOSTIC"
         },
         "obj": {
-            "text": "rối loạn lipid",
-            "start": 83,
-            "end": 97,
-            "type": "DISEASE"
+            "text": "xuất tinh máu",
+            "start": 210,
+            "end": 223,
+            "type": "SYMPTOM"
         }
     },
     {
@@ -1504,35 +1504,35 @@
         }
     },
     {
-        "text": "triệu chứng thường gặp những dấu hiệu và triệu chứng của giãn tĩnh mạch giãn tĩnh mạch thường bao gồm các dấu hiệu và triệu chứng như sau : chảy máu đột ngột ( nôn trớ , tiểu ra máu ) và nhiều ở đường tiêu hóa trên nhưng không cảm giác đau hoặc không đi kèm triệu chứng khác; chảy máu trực tràng; giảm cân ở bệnh nhân gan mãn tính; chán ăn , khó chịu; vàng da; chuột rút; sốc; vị trí xuất huyết thường ở đoạn thực quản đoạn xa .",
-        "relation": "No_Relation",
+        "text": "một số loại thuốc , bao gồm thuốc an thần , opioid và thuốc được sử dụng để điều trị rối loạn nhịp tim , huyết áp cao và một số rối loạn sức khỏe tâm thần nhất định .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "chuột rút",
-            "start": 361,
-            "end": 370,
-            "type": "SYMPTOM"
+            "text": "opioid",
+            "start": 44,
+            "end": 50,
+            "type": "TREATMENT"
         },
         "obj": {
-            "text": "giãn tĩnh mạch",
-            "start": 57,
-            "end": 71,
+            "text": "huyết áp cao",
+            "start": 105,
+            "end": 117,
             "type": "DISEASE"
         }
     },
     {
-        "text": "ngoài ra , phẫu thuật này mang theo những rủi ro liên quan cùng với phẫu thuật đục thủy tinh thể thông thường , chẳng hạn như viêm , nhiễm trùng , bệnh tăng nhãn áp , chảy máu và bong võng mạc .",
-        "relation": "No_Relation",
+        "text": "nổi khối u ở bụng : thường được bệnh nhân phát hiện tình cờ hoặc qua thăm khám bụng của bác sỹ đau bụng : đau âm ỉ , mơ hồ , ít khi đau dữ dội giảm cân không rõ nguyên nhân , thường gặp trong ung thư ruột non giai đoạn cuối .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "chảy máu",
-            "start": 167,
-            "end": 175,
-            "type": "DISEASE"
+            "text": "giảm cân không rõ nguyên nhân",
+            "start": 143,
+            "end": 172,
+            "type": "SYMPTOM"
         },
         "obj": {
-            "text": "nhiễm trùng",
-            "start": 133,
-            "end": 144,
-            "type": "DISEASE"
+            "text": "đau âm ỉ",
+            "start": 106,
+            "end": 114,
+            "type": "SYMPTOM"
         }
     },
     {
@@ -1568,67 +1568,67 @@
         }
     },
     {
-        "text": "bệnh nhân nôn nghiêm trọng , nôn kéo dài hơn 1 ngày , hoặc có dấu hiệu mất nước khi thăm khám phải làm thêm các xét nghiệm ( như xét nghiệm điện giải , bun , creatinine , glucose , xét nghiệm nước tiểu , đôi khi xét nghiệm chức năng gan ) .",
-        "relation": "No_Relation",
+        "text": "các biện pháp điều trị bệnh ung thư hậu môn điều trị ung thư trực tràng hiện nay có 3 phương pháp chính : phẫu thuật , xạ trị và hóa chất .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "creatinine",
-            "start": 158,
-            "end": 168,
-            "type": "DIAGNOSTIC"
-        },
-        "obj": {
-            "text": "glucose",
-            "start": 171,
-            "end": 178,
-            "type": "DIAGNOSTIC"
-        }
-    },
-    {
-        "text": "ngoài ra , quai bị còn có thể gây ra các biến chứng khác hiếm gặp : viêm cơ tim , viêm tuyến giáp , viêm tuyến lệ , viêm thần kinh thị giác ( gây giảm thị lực tạm thời ) , viêm thanh khí phế quản , viêm phổi , rối loạn chức năng gan , xuất huyết do giảm tiểu cầu .",
-        "relation": "No_Relation",
-        "subj": {
-            "text": "viêm thanh khí phế quản",
-            "start": 172,
-            "end": 195,
-            "type": "DISEASE"
-        },
-        "obj": {
-            "text": "viêm tuyến lệ",
-            "start": 100,
-            "end": 113,
-            "type": "DISEASE"
-        }
-    },
-    {
-        "text": "một số thuốc , bao gồm các thuốc giảm đau , thuốc lợi tiểu và những thuốc sử dụng để điều trị bệnh parkinson , huyết áp cao và trầm cảm .",
-        "relation": "No_Relation",
-        "subj": {
-            "text": "thuốc giảm đau",
-            "start": 27,
-            "end": 41,
+            "text": "phẫu thuật",
+            "start": 106,
+            "end": 116,
             "type": "TREATMENT"
         },
         "obj": {
-            "text": "bệnh parkinson",
-            "start": 94,
-            "end": 108,
+            "text": "ung thư hậu môn",
+            "start": 28,
+            "end": 43,
             "type": "DISEASE"
         }
     },
     {
-        "text": "bệnh cơ tim giai đoạn đầu của bệnh cơ tim có thể không gây ra các triệu chứng đáng chú ý . khi tình trạng xấu đi , các triệu chứng có thể bao gồm : chóng mặt , choáng váng và ngất xỉu .",
-        "relation": "No_Relation",
+        "text": "nhức đầu khi ho trung bình nguyên nhân của đau đầu khi ho trung bình hầu như luôn luôn có thể được truy nguồn từ một vấn đề trong phần sau của não hoặc tại cấu trúc hộp sọ , nơi mà bộ não và tủy sống kết nối , chẳng hạn như : khiếm khuyết hình dạng hộp sọ .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "bệnh cơ tim",
-            "start": 30,
-            "end": 41,
+            "text": "vấn đề trong phần sau của não hoặc tại cấu trúc hộp sọ",
+            "start": 119,
+            "end": 175,
+            "type": "CAUSE"
+        },
+        "obj": {
+            "text": "nhức đầu",
+            "start": 0,
+            "end": 8,
+            "type": "SYMPTOM"
+        }
+    },
+    {
+        "text": "triệu chứng bệnh ung thư đại tràng triệu chứng ung thư đại tràng bao gồm : 1. đau bụng : đau bụng là một trong những triệu chứng sớm nhất và có ở 70 - 80% bệnh nhân ung thư đại tràng .",
+        "relation": "NO_RELATION",
+        "subj": {
+            "text": "ung thư đại tràng",
+            "start": 47,
+            "end": 64,
             "type": "DISEASE"
         },
         "obj": {
-            "text": "bệnh cơ tim",
-            "start": 0,
-            "end": 11,
+            "text": "bệnh ung thư đại tràng",
+            "start": 12,
+            "end": 34,
             "type": "DISEASE"
+        }
+    },
+    {
+        "text": "ngoài ra , một chấn thương có thể cho phép vi khuẩn hoặc nấm để truy cập vào giác mạc thông qua các bề mặt bị hư hỏng , gây ra viêm giác mạc có liên quan đến nhiễm trùng .",
+        "relation": "NO_RELATION",
+        "subj": {
+            "text": "vi khuẩn",
+            "start": 43,
+            "end": 51,
+            "type": "CAUSE"
+        },
+        "obj": {
+            "text": "một chấn thương",
+            "start": 11,
+            "end": 26,
+            "type": "CAUSE"
         }
     },
     {
@@ -1664,67 +1664,67 @@
         }
     },
     {
-        "text": "hãy nhận biết các dấu hiệu và triệu chứng của nhiễm trùng tai giữa , bao gồm cả đau tai , sốt , nghẹt mũi và nghe giảm .",
-        "relation": "No_Relation",
+        "text": "triệu chứng bệnh ung thư thận triệu chứng của ung thư thận được biểu hiện bởi tam chứng cổ điển : tiểu máu , khối u vùng thắt lưng và đau .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "nghẹt mũi",
-            "start": 96,
-            "end": 105,
-            "type": "SYMPTOM"
-        },
-        "obj": {
-            "text": "nhiễm trùng tai giữa",
+            "text": "ung thư thận",
             "start": 46,
-            "end": 66,
+            "end": 58,
             "type": "DISEASE"
-        }
-    },
-    {
-        "text": "tuy nhiên các triệu chứng này đều không đặc hiệu và có thể gặp trong các bệnh đường tiêu hóa khác : có máu trong phân : ung thư ruột non thường ít khi có máu đỏ tươi trong phân , bệnh nhân đa số đi ngoài phân đen , màu như bã cà phê , mùi thối khẳm tiêu chảy : là tình trạng đi ngoài phân nước &gt; 3 lần/ngày .",
-        "relation": "No_Relation",
-        "subj": {
-            "text": "đi ngoài phân đen",
-            "start": 195,
-            "end": 212,
-            "type": "SYMPTOM"
         },
         "obj": {
-            "text": "ít khi có máu đỏ tươi trong phân",
-            "start": 144,
-            "end": 176,
+            "text": "khối u vùng thắt lưng",
+            "start": 109,
+            "end": 130,
             "type": "SYMPTOM"
         }
     },
     {
-        "text": "các triệu chứng ban đầu thường là triệu chứng suy tim : khó thở khi gắng sức , thở gấp , khó thở kịch phát về đêm , mệt mỏi .",
-        "relation": "No_Relation",
+        "text": "các triệu chứng chóng mặt lành tính chỉ chóng mặt bộc phát được kích hoạt bởi những thay đổi cụ thể tư thế đầu , như cúi đầu lên hoặc xuống và nằm xuống , quay qua hoặc ngồi dậy trên giường .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "khó thở khi gắng sức",
-            "start": 56,
-            "end": 76,
+            "text": "chóng mặt lành tính",
+            "start": 16,
+            "end": 35,
+            "type": "DISEASE"
+        },
+        "obj": {
+            "text": "cúi đầu lên hoặc xuống và nằm xuống",
+            "start": 117,
+            "end": 153,
+            "type": "CAUSE"
+        }
+    },
+    {
+        "text": "nổi khối u ở bụng : thường được bệnh nhân phát hiện tình cờ hoặc qua thăm khám bụng của bác sỹ đau bụng : đau âm ỉ , mơ hồ , ít khi đau dữ dội giảm cân không rõ nguyên nhân , thường gặp trong ung thư ruột non giai đoạn cuối .",
+        "relation": "NO_RELATION",
+        "subj": {
+            "text": "đau âm ỉ",
+            "start": 106,
+            "end": 114,
             "type": "SYMPTOM"
         },
         "obj": {
-            "text": "mệt mỏi",
-            "start": 116,
-            "end": 123,
+            "text": "giảm cân không rõ nguyên nhân",
+            "start": 143,
+            "end": 172,
             "type": "SYMPTOM"
         }
     },
     {
-        "text": "nếu đồng thời mắc phải bệnh tim cấu trúc có thể gây suy tim , suy nhược , đau ngực , lú lẫn và ngất .",
-        "relation": "No_Relation",
+        "text": "các dấu hiệu và triệu chứng của chứng mất trí này có thể bao gồm các hành vi xã hội không thích hợp , mất tính linh hoạt về tinh thần , vấn đề ngôn ngữ và khó khăn với tư duy và tập trung , thường xuất hiện trong độ tuổi từ 40 và 65. các rối loạn khác liên quan đến chứng mất trí bệnh huntington .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "ngất",
-            "start": 95,
-            "end": 99,
+            "text": "khó khăn với tư duy và tập trung",
+            "start": 156,
+            "end": 188,
             "type": "SYMPTOM"
         },
         "obj": {
-            "text": "lú lẫn",
-            "start": 85,
-            "end": 91,
-            "type": "SYMPTOM"
+            "text": "chứng mất trí",
+            "start": 32,
+            "end": 45,
+            "type": "DISEASE"
         }
     },
     {
@@ -1744,67 +1744,67 @@
         }
     },
     {
-        "text": "nguyên nhân gây bệnh nguyên nhân dẫn đến tai biến mạch máu não tai biến mạch máu não do thiếu máu não : các chất béo bám thành mảng , nằm ở động mạch và ngăn dòng chảy của máu cũng như oxy đi nuôi các tế bào não ( xơ vữa động mạch ) .",
-        "relation": "No_Relation",
+        "text": "triệu chứng bệnh tiêu chảy nhiễm trùng các triệu chứng thông thường của tiêu chảy nhiễm trùng đường ruột là : đau bụng : khi tình hình nhiễm trùng đường ruột trở nên nghiêm trọng hơn , bệnh nhân thường thấy đau quặn bụng , đau khắp vùng bụng .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "tai biến mạch máu não",
+            "text": "đau khắp vùng bụng",
+            "start": 223,
+            "end": 241,
+            "type": "SYMPTOM"
+        },
+        "obj": {
+            "text": "đau bụng",
+            "start": 110,
+            "end": 118,
+            "type": "SYMPTOM"
+        }
+    },
+    {
+        "text": "triệu chứng thường gặp những dấu hiệu và triệu chứng của giãn tĩnh mạch giãn tĩnh mạch thường bao gồm các dấu hiệu và triệu chứng như sau : chảy máu đột ngột ( nôn trớ , tiểu ra máu ) và nhiều ở đường tiêu hóa trên nhưng không cảm giác đau hoặc không đi kèm triệu chứng khác; chảy máu trực tràng; giảm cân ở bệnh nhân gan mãn tính; chán ăn , khó chịu; vàng da; chuột rút; sốc; vị trí xuất huyết thường ở đoạn thực quản đoạn xa .",
+        "relation": "NO_RELATION",
+        "subj": {
+            "text": "chán ăn",
+            "start": 332,
+            "end": 339,
+            "type": "SYMPTOM"
+        },
+        "obj": {
+            "text": "tiểu ra máu",
+            "start": 170,
+            "end": 181,
+            "type": "SYMPTOM"
+        }
+    },
+    {
+        "text": "viêm thực quản truyền nhiễm bác sĩ có thể kê toa thuốc để điều trị nhiễm trùng do vi khuẩn , siêu vi , nấm hay ký sinh trùng gây ra viêm thực quản truyền nhiễm .",
+        "relation": "NO_RELATION",
+        "subj": {
+            "text": "vi khuẩn",
+            "start": 82,
+            "end": 90,
+            "type": "CAUSE"
+        },
+        "obj": {
+            "text": "nấm hay ký sinh trùng",
+            "start": 103,
+            "end": 124,
+            "type": "CAUSE"
+        }
+    },
+    {
+        "text": "nguyên nhân gây bệnh nguyên nhân dẫn đến bệnh tim mạch nguyên nhân của bệnh mạch vành sự tích tụ các mảng chất béo trong động mạch ( xơ vữa động mạch ) là nguyên nhân phổ biến nhất của bệnh mạch vành .",
+        "relation": "NO_RELATION",
+        "subj": {
+            "text": "bệnh mạch vành",
+            "start": 74,
+            "end": 88,
+            "type": "DISEASE"
+        },
+        "obj": {
+            "text": "bệnh tim mạch",
             "start": 41,
-            "end": 66,
+            "end": 57,
             "type": "DISEASE"
-        },
-        "obj": {
-            "text": "xơ vữa động mạch",
-            "start": 218,
-            "end": 234,
-            "type": "CAUSE"
-        }
-    },
-    {
-        "text": "viêm mạch máu lớn và trung bình như viêm động mạch tế bào khổng lồ , bệnh kawasaki , bệnh takayasu có thể dẫn đến biến chứng nhồi máu cơ tim cấp tính , xuất huyết não , nhồi máu não , phình động mạch chủ , lóc tách động mạch chủ , nhồi máu mạc treo .",
-        "relation": "No_Relation",
-        "subj": {
-            "text": "bệnh kawasaki",
-            "start": 69,
-            "end": 82,
-            "type": "CAUSE"
-        },
-        "obj": {
-            "text": "viêm mạch máu",
-            "start": 0,
-            "end": 13,
-            "type": "DISEASE"
-        }
-    },
-    {
-        "text": "yếu tố làm tăng nguy cơ mắc phải phình động mạch não một số yếu tố làm tăng nguy cơ mắc phình động mạch não , bao gồm : hội chứng ehlers - danlos; u sợi thần kinh; bệnh thận đa nang; tăng huyết áp; hút thuốc lá; uống rượu bia; nghiện ma túy; xơ vữa động mạch; xơ cứng động mạch; hội chứng moyamoya; hẹp eo động mạch chủ; gặp chấn thương ở vùng đầu; bị dị tật ở động mạch não ( bẩm sinh hay di truyền ) .",
-        "relation": "No_Relation",
-        "subj": {
-            "text": "hội chứng ehlers - danlos",
-            "start": 120,
-            "end": 145,
-            "type": "CAUSE"
-        },
-        "obj": {
-            "text": "phình động mạch não",
-            "start": 88,
-            "end": 107,
-            "type": "DISEASE"
-        }
-    },
-    {
-        "text": "biến chứng có thể gặp khi mắc hở van động mạch chủ hở van động mạch chủ nếu không được phát hiện và can thiệp kịp thời , có thể gây ra các biến chứng nguy hiểm : suy tim : lượng máu từ động mạch chủ dội ngược về thất trái làm cho thất trái giãn dần ra ( quá tải thể tích thất trái ) , đến khi cơ tim không còn bù trừ được dẫn đến suy giảm co bóp và suy tim; viêm nội tâm mạc nhiễm khuẩn : dòng máu dội ngược từ động mạch chủ về thất trái gây tổn thương lớp nội mạc tim , tạo điều kiện cho vi khuẩn gây nhiễm trùng hay áp - xe; loạn nhịp tim; tử vong : nếu không được điều trị hoặc phẫu thuật kịp thời , dẫn đến suy tim không hồi phục .",
-        "relation": "No_Relation",
-        "subj": {
-            "text": "suy tim",
-            "start": 349,
-            "end": 356,
-            "type": "DISEASE"
-        },
-        "obj": {
-            "text": "hở van động mạch chủ",
-            "start": 30,
-            "end": 50,
-            "type": "CAUSE"
         }
     },
     {
@@ -1824,50 +1824,50 @@
         }
     },
     {
-        "text": "tuy nhiên với tiến bộ của xạ trị và hóa chất thì các bệnh nhân ung thư hậu môn giai đoạn muộn không có chỉ định phẫu thuật mà thay bằng hóa xạ trị đồng thời trường hợp khối u tiến triển hoặc tái phát bệnh nhân có thể được chỉ định làm hậu môn nhân tạo .",
+        "text": "một số thuốc , bao gồm các thuốc giảm đau , thuốc lợi tiểu và những thuốc sử dụng để điều trị bệnh parkinson , huyết áp cao và trầm cảm .",
         "relation": "TREATED_WITH",
         "subj": {
-            "text": "ung thư hậu môn giai đoạn muộn",
-            "start": 63,
-            "end": 93,
+            "text": "bệnh parkinson",
+            "start": 94,
+            "end": 108,
             "type": "DISEASE"
         },
         "obj": {
-            "text": "hóa xạ trị",
-            "start": 136,
-            "end": 146,
+            "text": "thuốc lợi tiểu",
+            "start": 44,
+            "end": 58,
             "type": "TREATMENT"
         }
     },
     {
-        "text": "bệnh nhân mắc bệnh to đầu chi do cường gh , bệnh u tủy thượng thận và chứng bệnh xơ hóa thần kinh cũng có khả năng mắc cơ tim phì đại .",
-        "relation": "No_Relation",
+        "text": "thuốc như thuốc chống trầm cảm và thuốc chống lo âu cũng có thể giúp đỡ với các triệu chứng của trầm cảm hoặc lo lắng - thường xuyên liên kết với rối loạn ăn uống .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "bệnh u tủy thượng thận",
-            "start": 44,
-            "end": 66,
-            "type": "DISEASE"
+            "text": "thuốc chống trầm cảm",
+            "start": 10,
+            "end": 30,
+            "type": "TREATMENT"
         },
         "obj": {
-            "text": "cơ tim phì đại",
-            "start": 119,
-            "end": 133,
+            "text": "rối loạn ăn uống",
+            "start": 146,
+            "end": 162,
             "type": "DISEASE"
         }
     },
     {
-        "text": "hormone thay đổi thay đổi nội tiết tố do thai kỳ , kinh nguyệt , sử dụng thuốc tránh thai hoặc điều kiện nội tiết như suy giáp có thể gây ra viêm mũi không dị ứng .",
-        "relation": "No_Relation",
+        "text": "ở người lớn , suy tim có thể do : cơ tim suy yếu ( bệnh cơ tim ) ; bệnh động mạch vành ; bệnh van tim; bệnh tim bẩm sinh ( dị tật tim bẩm sinh ) ; nhịp tim bất thường tái phát nguy hiểm ( loạn nhịp thất ) không được kiểm soát bởi các phương pháp điều trị khác; thất bại của ca ghép tim trước đó .",
+        "relation": "NO_RELATION",
         "subj": {
-            "text": "hormone thay đổi",
-            "start": 0,
-            "end": 16,
+            "text": "bệnh động mạch vành",
+            "start": 67,
+            "end": 86,
             "type": "CAUSE"
         },
         "obj": {
-            "text": "sử dụng thuốc tránh thai",
-            "start": 65,
-            "end": 89,
+            "text": "bệnh tim bẩm sinh",
+            "start": 103,
+            "end": 120,
             "type": "CAUSE"
         }
     },
