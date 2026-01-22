@@ -26,9 +26,11 @@ class ViHealthBERTEncoder(nn.Module):
     """
     def __init__(
         self,
+        
         model_name: str = "demdecuong/vihealthbert-base-word",
         add_entity_markers: bool = True,
         use_fast_tokenizer: bool = True,
+        tokenizer: Optional[AutoTokenizer] = None
     ):
         super().__init__()
         self.model_name = model_name
@@ -41,11 +43,12 @@ class ViHealthBERTEncoder(nn.Module):
         self.model = AutoModel.from_pretrained(model_name)
 
         if add_entity_markers:
-            added = self.tokenizer.add_special_tokens(
+            # Thử thêm token (nếu chưa có)
+            self.tokenizer.add_special_tokens(
                 {"additional_special_tokens": SPECIAL_TOKENS}
             )
-            if added > 0:
-                self.model.resize_token_embeddings(len(self.tokenizer))
+        if self.model.config.vocab_size != len(self.tokenizer):
+            self.model.resize_token_embeddings(len(self.tokenizer))
 
         self.hidden_size = self.model.config.hidden_size
 
