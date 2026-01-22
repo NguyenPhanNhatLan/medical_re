@@ -33,10 +33,11 @@ class ViHealthBERTEncoder(nn.Module):
         super().__init__()
         self.model_name = model_name
 
-        self.tokenizer = AutoTokenizer.from_pretrained(
-            model_name,
-            use_fast=use_fast_tokenizer,
-        )
+        if tokenizer is not None:
+            self.tokenizer = tokenizer
+        else:
+            self.tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=True)
+            
         self.model = AutoModel.from_pretrained(model_name)
 
         if add_entity_markers:
