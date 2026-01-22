@@ -1,46 +1,57 @@
-# models/vipubmeddeberta_encoder.py
+# models/vipubmed_encoder.py
 # -*- coding: utf-8 -*-
 
 from dataclasses import dataclass
-from typing import Any, Tuple
+from typing import Any, Tuple, Optional
 import torch
 import torch.nn as nn
 from transformers import AutoTokenizer, AutoModel
 
 SPECIAL_TOKENS = ["<e1>", "</e1>", "<e2>", "</e2>"]
 
-
 @dataclass
 class EncoderOutput:
     hidden_states: torch.Tensor
     cls: torch.Tensor
-
+    # Nếu muốn dùng attentions/all_hidden_states thì phải khai báo thêm ở đây, 
+    # nhưng với bài toán RE này thì không cần, nên ta sẽ bỏ nó lúc return.
 
 class ViPubmedDeBERTaEncoder(nn.Module):
     def __init__(
         self,
-       model_name: str = "manhtt-079/vipubmed-deberta-base",
+        model_name: str = "manhtt-079/vipubmed-deberta-base",
         add_entity_markers: bool = True,
         use_fast_tokenizer: bool = True,
         gradient_checkpointing: bool = False,
-        strict_entity_check: bool = False,  
+        strict_entity_check: bool = False,
+        tokenizer: Optional[AutoTokenizer] = None  # <--- THÊM THAM SỐ NÀY
     ):
         super().__init__()
 
         self.model_name = model_name
         self.strict_entity_check = strict_entity_check
-        self.tokenizer = AutoTokenizer.from_pretrained(
-            model_name,
-            use_fast=use_fast_tokenizer,
-        )
+        
+        # 1. Ưu tiên dùng tokenizer truyền vào từ bên ngoài (để đồng bộ ID)
+        if tokenizer is not None:
+            self.tokenizer = tokenizer
+        else:
+            self.tokenizer = AutoTokenizer.from_pretrained(
+                model_name,
+                use_fast=use_fast_tokenizer,
+            )
+            
         self.model = AutoModel.from_pretrained(model_name)
 
+        # 2. Thêm token và resize embedding
         if add_entity_markers:
-            added = self.tokenizer.add_special_tokens(
+            # Thêm nếu chưa có
+            self.tokenizer.add_special_tokens(
                 {"additional_special_tokens": SPECIAL_TOKENS}
             )
-            if added > 0:
-                self.model.resize_token_embeddings(len(self.tokenizer))
+        
+        # Luôn resize model nếu kích thước không khớp
+        if self.model.config.vocab_size != len(self.tokenizer):
+            self.model.resize_token_embeddings(len(self.tokenizer))
 
         if gradient_checkpointing:
             self.model.gradient_checkpointing_enable()
@@ -54,9 +65,10 @@ class ViPubmedDeBERTaEncoder(nn.Module):
         self,
         input_ids: torch.Tensor,      
         attention_mask: torch.Tensor, 
-        output_attentions: False,
-        output_hidden_states: False,
-        **kwargs) -> EncoderOutput:
+        output_attentions: bool = False,      # <--- SỬA LẠI TYPE HINT
+        output_hidden_states: bool = False,   # <--- SỬA LẠI TYPE HINT
+        **kwargs
+    ) -> EncoderOutput:
         out = self.model(
             input_ids=input_ids,
             attention_mask=attention_mask,
@@ -66,14 +78,9 @@ class ViPubmedDeBERTaEncoder(nn.Module):
         )
         hidden_states = out.last_hidden_state
         cls = hidden_states[:, 0, :]   
-        if output_hidden_states:
-            all_hidden_states=out.hidden_states
-        else: None
         
-        if output_attentions:
-            attentions=out.attentions
-        else: None
-        return EncoderOutput(hidden_states=hidden_states, cls=cls, attentions=attentions, all_hidden_states=all_hidden_states)
+        # <--- SỬA LẠI RETURN: Chỉ trả về những gì EncoderOutput định nghĩa
+        return EncoderOutput(hidden_states=hidden_states, cls=cls)
 
     @staticmethod
     def masked_mean_pool(
@@ -115,8 +122,8 @@ class ViPubmedDeBERTaEncoder(nn.Module):
             )
             if self.strict_entity_check:
                 raise ValueError(msg)
-            else:
-                print(f"[Warning] {msg}")
+            # else:
+            #     print(f"[Warning] {msg}")
 
         e1_pos = e1_mask.int().argmax(dim=1)
         e2_pos = e2_mask.int().argmax(dim=1)
@@ -125,16 +132,9 @@ class ViPubmedDeBERTaEncoder(nn.Module):
 
     # ---------- save / load ----------
     def save_pretrained(self, save_dir: str):
-        """
-        Save BOTH model and tokenizer.
-        MUST be used instead of torch.save(state_dict).
-        """
         self.model.save_pretrained(save_dir)
         self.tokenizer.save_pretrained(save_dir)
 
     @classmethod
     def from_pretrained(cls, load_dir: str, **kwargs):
-        """
-        Reload encoder safely with tokenizer + model aligned.
-        """
         return cls(model_name=load_dir, **kwargs)
