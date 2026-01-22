@@ -4,9 +4,8 @@ import torch
 from datasets.base_dataset import BaseREDataset
 from datasets.utils import find_entity_positions
 
-
 class BERTESDataset(BaseREDataset):
-    def init__(self, *args, **kwargs):
+    def __init__(self, *args, **kwargs):  # <--- SỬA LẠI TÊN HÀM CHO ĐÚNG
         super().__init__(*args, **kwargs)
         self.with_end_tags = False  # BERT-ES style
         
