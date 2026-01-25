@@ -5,4 +5,6 @@ Bởi vì technical issues, cụ thể là hardware của team quá phế nên c
 
 [ViHealth-RBERT](https://colab.research.google.com/drive/1Bf7H1XazznI3XoqD-q8lv-A4nESv5jEm?usp=sharing)
 
+[ViHealth-BERTES](https://colab.research.google.com/drive/1yQ7sq761I-6ZRdZ6uNNrT6f26IY0LOUP?usp=sharing)
+
 [ViPubMed-BERTES](https://colab.research.google.com/drive/1yQ7sq761I-6ZRdZ6uNNrT6f26IY0LOUP?usp=sharing)
